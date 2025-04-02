@@ -1,25 +1,26 @@
-# Título do Projeto
+# Stock Master
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`1º semestre/2025`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Stock Master é um sistema de gerenciamento de estoque projetado para otimizar o controle de produtos, pedidos e relatórios de desempenho.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Gabriel Lorran Ribeiro Dias
+* Jair Junior Da Silva Peixoto
+* Lucas Fonseca Gomes
+* Thiago Luigi Malaquias Borges
+* Verônica Costa Souza
+  
 
 ## Orientador
 
-* Nome completo do professor
+* Marco Rodrigo Costa
 
 # Documentação
 
@@ -37,7 +38,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique [aqui](https://exemplo.com/) para acessá-lo.
 
 # Código-Fonte
 
