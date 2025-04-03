@@ -17,8 +17,6 @@ Para administrar, deve-se ter controle do que se compra, se vende e se perde.
 
 - Evitar falhas humanas;
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
 
 ## Objetivos
 
@@ -32,7 +30,6 @@ Objetivos específicos:
 - Priorizar saída de produtos próximos ao vencimento;
 - Integrar ordem de compra com conferência de produtos;
  
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 
 ## Justificativa
 
@@ -43,21 +40,16 @@ Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: 
 mas apenas 52% delas tem sido bem sucedidas em seu uso(Revista Valor Econômico, 2024)
 - Disposição para automatizar, dificuldade em se adaptar.
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
 Foco em distribuidoras de bebidas.
 
- Gerentes de operações.
+Gerentes de operações.
 
- Operadores de produção.
+Operadores de produção.
 
- Controladores de estoque.
+Controladores de estoque.
 
- Consumidores de bebidas
- 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+Consumidores de bebidas
 
