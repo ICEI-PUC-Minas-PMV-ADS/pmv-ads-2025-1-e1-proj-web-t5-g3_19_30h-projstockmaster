@@ -17,6 +17,7 @@ O fluxograma a seguir mostra o fluxo de interação do usuário com o sistema a 
 
 Abaixo, ilustra-se o protótipo da aplicação web a ser desenvolvida. O que se buscou até este ponto foi uma esquematização do que se especula fazer. O desenvolvimento do código propriamente dito ainda passará por avaliação do grupo, bem como de seu professor tutor.
 
+
 ### Protótipo de baixa fidelidade
 
 As telas da aplicação apresentam a mesma estrutura que podem ser divididas em quatro blocos:
@@ -40,8 +41,9 @@ A tela de Login apresenta campos para a inserção de e-mail e senha, bem como a
 
 ![Image](https://github.com/user-attachments/assets/4b666cc1-e83c-42a7-93c0-ae5837d409c3)
 <figure> 
-    <figcaption>Figura 3 - Tela de login
+    <figcaption>Figura 3 - Login
 </figure> 
+
 
 ### Tela 2: Criar nova conta
 
@@ -49,8 +51,9 @@ A tela de ‘Criar uma nova conta’ apresenta os campos obrigatórios ‘Nome o
 
 ![Image](https://github.com/user-attachments/assets/c7fc8c3c-c4f7-4e12-884e-7438c588bc62)
 <figure> 
-    <figcaption>Figura 4 - Tela Criar nova conta
+    <figcaption>Figura 4 - Criar nova conta
 </figure> 
+
 
 ### Tela 3: Dashboard
 
@@ -58,6 +61,56 @@ A tela de início da aplicação é seu ‘Dashboard’. Ele contém menus simpl
 
 ![Image](https://github.com/user-attachments/assets/5fc8b278-c2ce-4325-8b46-c9533cc050c8)
 <figure> 
-    <figcaption>Figura 5 - Tela Dashboard
+    <figcaption>Figura 5 - Dashboard
+</figure> 
+
+
+### Tela 4: Gestão de produtos
+
+A tela de gestão de produtos permite ao usuário inserir um novo produto, editar os produtos já cadastrados e gerenciar os lotes desses produtos. Na parte de baixo da página, é possível ver uma lista dos itens que se tem em estoque, suas quantidades, lotes e data de validade.
+
+![Image](https://github.com/user-attachments/assets/7db5ae6e-afdf-4ccb-9150-c8c07f5ae12f)
+<figure> 
+    <figcaption>Figura 6 - Gestão de produtos
+</figure> 
+
+
+### Tela 5: Pedidos
+
+O menu ‘Pedidos’ permite ao usuário incluir novos pedidos de compra – entradas no estoque. O usuário pode, também, editar e gerenciar esses pedidos. Na parte de baixo, tem-se uma tabela com um resumo dos pedidos recentes.
+
+![Image](https://github.com/user-attachments/assets/cc5e9e93-1790-464b-8e2c-9f0470b2116d)
+<figure> 
+    <figcaption>Figura 7 - Pedidos
+</figure> 
+
+
+### Tela 6: Gestão de estoque
+
+O menu ‘Gestão de estoque’ apresenta uma tabela organizada dos itens que estão em estoque. O botão ‘Ordenar por’ permite ao usuário organizar a lista por nome, categoria, número do lote, data de validade e quantidade.
+
+![Image](https://github.com/user-attachments/assets/e379e096-5d86-48c2-a25c-4261e0285f2a)
+<figure> 
+    <figcaption>Figura 8 - Gestão de estoque
+</figure> 
+
+
+### Tela 7: Relatórios
+
+A tela ‘relatórios’ oferece ao usuário as opções de gerar relatórios automáticos em gráficos, planilhas e em listas.
+
+![Image](https://github.com/user-attachments/assets/9796710c-acd8-413d-a3cd-952373d21cc8)
+<figure> 
+    <figcaption>Figura 9 - Relatórios
+</figure> 
+
+
+### Tela 8: Configurações
+
+A tela ‘Configurações de conta’ permite ao usuário editar seu nome de usuário vinculado ao email, bem como selecionar preferências de notificação.
+
+![Image](https://github.com/user-attachments/assets/7a0b529c-33a0-4cfe-a49c-9cc7b3a6f211)
+<figure> 
+    <figcaption>Figura 10 - Configurações
 </figure> 
 
