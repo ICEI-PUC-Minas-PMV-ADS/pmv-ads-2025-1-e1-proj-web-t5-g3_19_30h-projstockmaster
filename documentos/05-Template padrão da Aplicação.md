@@ -12,4 +12,6 @@ As páginas têm como elementos padrões o menu lateral de navegação e o heade
 Para a criação da logomarca do site foi utilizada a cor verde água num tom mais escuro, na inteção de sugerir estabilidade, confiança e segurança, pois se trata de um tom sóbrio e sólido. As setas em sentidos inversos foram usadas como referência a entrada e saída, como o ciclo de gestão de um estoque. O tom de cinza que é usado como fundo da logomarca e do site como um todo tenciona diminuir o impacto de luz branca à visão dos usuários, tornando a aplicação mais confortável de ser usada por muitas horas seguidas.
 
 ![Image](https://github.com/user-attachments/assets/0af13402-ca03-47d2-a2c2-a0255a853972)
-
+<figure> 
+    <figcaption>Figura 1 - Logomarca Stock Master
+</figure> 
