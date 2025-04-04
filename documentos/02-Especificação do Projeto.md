@@ -16,15 +16,89 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-●	Monitorar o estoque de bebidas e insumos;
-●	Acompanhar a logística e garantir o cumprimento das metas de entrega e produtividade; 
-●	Gerar relatórios de desempenho operacional; 
-●	Ter acesso a dados em tempo real para tomada de decisões.
-
+<ul>
+  <li>Monitorar o estoque de bebidas e insumos;</li>
+  <li>Acompanhar a logística e garantir o cumprimento das metas de entrega e produtividade; </li>
+  <li>Gerar relatórios de desempenho operacional;</li>
+  <li>Ter acesso a dados em tempo real para tomada de decisões.</li>
+</ul>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Operador de produção</th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Responsável pela separação, embalagem e movimentação das bebidas na distribuidora.</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+<ul>
+  <li>Registrar a movimentação diária e a quantidade de produtos separados;</li>
+  <li>Acessar manuais e procedimentos de operação;</li>
+  <li>Reportar problemas na separação ou falhas de equipamentos;</li>
+  <li>Garantir a conformidade com os padrões de segurança no trabalho.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Controlador de Estoque</th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Responsável pela separação, embalagem e movimentação das bebidas na distribuidora.</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+<ul>
+  <li>Registrar entradas e saídas de produtos;</li>
+  <li>Controlar o inventário e evitar desperdícios;</li>
+  <li>Gerar relatórios de estoque para o gerenciamento; </li>
+  <li>Acompanhar a validade dos produtos e garantir o giro adequado.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Cliente da Distribuidora de Bebidas</th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Responsável pela compra de bebidas na distribuidora.</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+<ul>
+  <li>Acesso fácil e rápido ao catálogo de bebidas;</li>
+  <li>Acompanhar a logística e garantir o cumprimento das metas de entrega e produtividade;</li>
+  <li>Facilidade para realizar pedidos e acompanhar o status das entregas; </li>
+  <li>Suporte ao cliente para resolver dúvidas e problemas.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 
 ## Histórias de Usuários
