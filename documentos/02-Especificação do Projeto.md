@@ -7,15 +7,21 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Gerente de Operações </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Responsável pela supervisão geral das operações diárias da distribuidora de bebidas.</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+●	Monitorar o estoque de bebidas e insumos;
+●	Acompanhar a logística e garantir o cumprimento das metas de entrega e produtividade; 
+●	Gerar relatórios de desempenho operacional; 
+●	Ter acesso a dados em tempo real para tomada de decisões.
+
+</td>
 </tr>
 </tbody>
 </table>
