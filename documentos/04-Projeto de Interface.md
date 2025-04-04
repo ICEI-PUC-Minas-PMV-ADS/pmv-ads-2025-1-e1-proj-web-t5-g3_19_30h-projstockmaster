@@ -3,33 +3,61 @@
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+O fluxograma a seguir mostra o fluxo de interação do usuário com o sistema a partir da seleção de tópicos no menu. Cada figura ilustra uma seção que estará disponível na aplicação.
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+![Image](https://github.com/user-attachments/assets/f715ee3b-d3fd-4c78-90fc-dddaf9c4b7ef) 
+<figure> 
+    <figcaption>Figura 1 - Fluxo de usuário
+</figure> 
+
+
 
 ## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
+Abaixo, ilustra-se o protótipo da aplicação web a ser desenvolvida. O que se buscou até este ponto foi uma esquematização do que se especula fazer. O desenvolvimento do código propriamente dito ainda passará por avaliação do grupo, bem como de seu professor tutor.
 
 ### Protótipo de baixa fidelidade
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
-
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
-
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+As telas da aplicação apresentam a mesma estrutura que podem ser divididas em quatro blocos:
+<ul>
+  <li>Logomarca: logo do sistema e link clicável que leva à página principal (dashboard);</li>
+  <li>Menu barra lateral: menu navegável que leva às demais funcionalidades da aplicação;</li>
+  <li>Cabeçalho: apresenta o título do menu selecionado;</li>
+  <li>Conteúdo: apresenta o conteúdo do menu em questão.</li>
+</ul>
 
 
+![Image](https://github.com/user-attachments/assets/3308c988-e81e-4b2d-85d5-f5b8572ecf66)
+<figure> 
+    <figcaption>Figura 2 - Estrutura da aplicação
+</figure> 
+
+
+### Tela 1: Login
+
+A tela de Login apresenta campos para a inserção de e-mail e senha, bem como a opção ‘Esqueci minha senha’, que levará o usuário ao menu de recuperação de senha, e ainda botões que sinalizam as opções de ‘Entrar’, ‘Criar nova conta’, ou entrar usando uma conta do Google ou do Facebook.
+
+![Image](https://github.com/user-attachments/assets/4b666cc1-e83c-42a7-93c0-ae5837d409c3)
+<figure> 
+    <figcaption>Figura 3 - Tela de login
+</figure> 
+
+### Tela 2: Criar nova conta
+
+A tela de ‘Criar uma nova conta’ apresenta os campos obrigatórios ‘Nome ou Razão Social’, ‘Email’, ‘Senha’ e ‘Confirmação de senha’ a serem preenchidos pelo usuário. Ele pode, também, preencher os campos ‘CPF/CNPJ’ e ‘Nº de WhatsApp’. Para seguir, ele deve marcar a opção ‘Declaro ter lido e aceitado os termos e políticas de serviço’. Há ainda os botões ‘Criar conta’ e os botões ‘Google’ e ‘Facebook’, que permitem ao usuário criar contas usando suas redes sociais.
+
+![Image](https://github.com/user-attachments/assets/c7fc8c3c-c4f7-4e12-884e-7438c588bc62)
+<figure> 
+    <figcaption>Figura 4 - Tela Criar nova conta
+</figure> 
+
+### Tela 3: Dashboard
+
+A tela de início da aplicação é seu ‘Dashboard’. Ele contém menus simplificados e de fácil acesso que levam a outras funcionalidades da aplicação, além de apresentar um resumo gráfico das vendas. Os ícones na parte mais baixa da página, clicáveis, levam aos demais menus, que também podem ser acessados pela barra lateral.
+
+![Image](https://github.com/user-attachments/assets/5fc8b278-c2ce-4325-8b46-c9533cc050c8)
+<figure> 
+    <figcaption>Figura 5 - Tela Dashboard
+</figure> 
 
