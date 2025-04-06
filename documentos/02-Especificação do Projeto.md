@@ -1,137 +1,114 @@
-# Especificação do Projeto
+# Especificações do Projeto
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
-<table>
-  
-|Perfil| Usuário| Descrição| Necessidades|
-  
-|PF-01| Gerente de operações| Responsável pela supervisão geral das operações diárias da distribuidora de bebidas| Monitorar o estoque de bebidas e insumos; • Acompanhar a logística e garantir o cumprimento das metas de entrega e produtividade; • Gerar relatórios de desempenho operacional; • Ter acesso a dados em tempo real para tomada de decisões|
-
-|PF-02| Operador de produção| Responsável pela separação, embalagem e movimentação das bebidas na distribuidora| • Registrar a movimentação diária e a quantidade de produtos separados; • Acessar manuais e procedimentos de operação; • Reportar problemas na separação ou falhas de equipamentos; • Garantir a conformidade com os padrões de segurança no trabalho|
-
-|PF-03| Controlador de estoque| Responsável pela supervisão geral das operações diárias da distribuidora de bebidas|• Registrar entradas e saídas de produtos;• Controlar o inventário e evitar desperdícios;• Gerar relatórios de estoque para o gerenciamento;• Acompanhar a validade dos produtos e garantir o giro adequado|
-
-|PF-04| Cliente da distribuidora de bebidas| Responsável pela compra de bebidas na distribuidora| • Acesso fácil e rápido ao catálogo de bebidas; • Informações detalhadas sobre os produtos, como tipos, marcas e preços; • Facilidade para realizar pedidos e acompanhar o status das entregas; • Suporte ao cliente para resolver dúvidas e problemas|
 <table>
 <tbody>
-<tr align=center>
-<th colspan="2">Gerente de Operações </th>
+<tr>
+<th colspan="2">Perfil 1: Gerente de operações </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">Responsável pela supervisão geral das operações diárias da distribuidora de bebidas.</td>
+<td width="600px">
+Responsável pela supervisão geral das operações diárias da distribuidora de bebidas 
+</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-<ul>
-  <li>Monitorar o estoque de bebidas e insumos;</li>
-  <li>Acompanhar a logística e garantir o cumprimento das metas de entrega e produtividade; </li>
-  <li>Gerar relatórios de desempenho operacional;</li>
-  <li>Ter acesso a dados em tempo real para tomada de decisões.</li>
-</ul>
+1. Monitorar o estoque de bebidas e insumos; 
+2. Acompanhar a logística e garantir o cumprimento das metas de entrega e produtividade; 
+3. Gerar relatórios de desempenho operacional;
+4. Ter acesso a dados em tempo real para a tomada de decisões; 
 </td>
 </tr>
 </tbody>
 </table>
 
-
 <table>
 <tbody>
-<tr align=center>
-<th colspan="2">Operador de produção</th>
+<tr>
+<th colspan="2">Perfil 2: Operador de produção </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">Responsável pela separação, embalagem e movimentação das bebidas na distribuidora.</td>
+<td width="600px">
+Responsável pela separação, embalagem e movimentação das bebidas na distribuidora. 
+</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-<ul>
-  <li>Registrar a movimentação diária e a quantidade de produtos separados;</li>
-  <li>Acessar manuais e procedimentos de operação;</li>
-  <li>Reportar problemas na separação ou falhas de equipamentos;</li>
-  <li>Garantir a conformidade com os padrões de segurança no trabalho.</li>
-</ul>
+1. Registrar a movimentação diária e a quantidade das bebidas na distribuidora; 
+2. Acessar manuais e procedimentos de operação;
+3. Reportar problemas na separação ou falhas de equipamentos;
+4. Garantir a conformidade com os padrões de segurança no trabalho;
 </td>
 </tr>
 </tbody>
 </table>
 
-
 <table>
 <tbody>
-<tr align=center>
-<th colspan="2">Controlador de Estoque</th>
+<tr>
+<th colspan="2">Perfil 3: Controlador de estoque </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">Responsável pela separação, embalagem e movimentação das bebidas na distribuidora.</td>
+<td width="600px">
+Responsável pela supervisão geral das operações diárias da distribuidora de bebidas. 
+</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-<ul>
-  <li>Registrar entradas e saídas de produtos;</li>
-  <li>Controlar o inventário e evitar desperdícios;</li>
-  <li>Gerar relatórios de estoque para o gerenciamento; </li>
-  <li>Acompanhar a validade dos produtos e garantir o giro adequado.</li>
-</ul>
+1. Registrar entradas e saídas de produtos; 
+2. Controlar o inventário e evitar desperdícios;
+3. Gerar relatórios de estoque para o gerenciamento;
+4. Acompanhar a validade dos produtos e garantir o giro adequado;
 </td>
 </tr>
 </tbody>
 </table>
 
-
 <table>
 <tbody>
-<tr align=center>
-<th colspan="2">Cliente da Distribuidora de Bebidas</th>
+<tr>
+<th colspan="2">Perfil 4: Cliente da distrubuidora de bebidas </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">Responsável pela compra de bebidas na distribuidora.</td>
+<td width="600px">
+Responsável pela compra de bebidas na distribuidora. 
+</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-<ul>
-  <li>Acesso fácil e rápido ao catálogo de bebidas;</li>
-  <li>Acompanhar a logística e garantir o cumprimento das metas de entrega e produtividade;</li>
-  <li>Facilidade para realizar pedidos e acompanhar o status das entregas; </li>
-  <li>Suporte ao cliente para resolver dúvidas e problemas.</li>
-</ul>
+1. Acesso fácil e rápido ao catálogo de bebidas; 
+2. Informações detalhadas sobre os produtos, como tipos, marcas e preços;
+3. Facilidade para realizar pedidos e acompanahar o status das entregas;
+4. Suporte ao cliente para resolver dúvidas e problemas;
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                                                        | PARA ... `MOTIVO/VALOR`                                                                                          |
+| -------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Gerente de operações | monitorar o estoque de bebidas e insumos em tempo real                                    | garantir que as metas de distribuições sejam atingidas.                                                          |
+| Operador de produção | registrar a movimentação diária e a quantidade de produtos separados                      | manter um controle eficiente das operações.                                                                      |
+|Controlador de estoque| ter fácil acesso à data de validade dos produtos através da identificação do lote         | garantir o giro adequado e evitar desperdícios.                                                                  |
+|Controlador de estoque| registrar entradas e saídas de produtos                                                   | manter um inventário preciso e atualizado.                                                                       |
+|Cliente distribuidora | acessar facilmente o catálogo de bebidas                                                  | realizar minhas compras de forma eficiente.                                                                      |
+|Cliente distribuidora | acompanhar o status das minhas entregas em tempo real                                     | garantir que os produtos cheguem dentro do prazo esperado.                                                       |
 
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
 
-|EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
-|--------------------| --------------------------|----------------------------------|
-|Gerente de operações| Monitorar estoque em tempo real| Garantir que as metas de distribuição sejam atingidas.|
-|Operador de produção| Registrar movimentação diária e a quantidade de produtos separados| Controle eficiente das operações|
-|Controlador de estoque| Acessar datas de validade através da identificação do lote| garantir o giro adequado e evitar desperdícios|
-|Controlador de estoque| Registrar entradas e saídas de produtos| manter um inventário preciso e atualizado|
-|Cliente da distribuidora| Acessar facilmente o catálogo de bebidas| realizar minhas compras de forma eficiente|
-|Cliente da distribuidora| Acompanhar o status das minhas entregas em tempo real| garantir que os produtos cheguem dentro do prazo esperado|
-
-## Requisitos do Projeto
-
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
+## Requisitos
 
 ### Requisitos Funcionais
 
