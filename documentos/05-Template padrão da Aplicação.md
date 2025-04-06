@@ -1,6 +1,6 @@
 # Template padrão da Aplicação
 
-O layout da aplicação será construído com as linguagens de marcação HTML e C#, além da linguagem de programação JavaScript, que será usada para a construção dos menus responsivos.
+O layout da aplicação será construído com as linguagens de marcação HTML e CSS, além da linguagem de programação JavaScript, que será usada para a construção dos menus responsivos.
 As páginas têm como elementos padrões o menu lateral de navegação e o header. Os elementos de identidade visual são citados abaixo:
 <ul>
   <li>Cores: tons de verde (RGB #004A48; RGB #007471), tons de cinza (RGB #F0F0F0; RGB #E7E6E6) e preto (RGB #000000);</li>
