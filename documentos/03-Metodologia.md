@@ -67,9 +67,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
-| Repositório de código fonte         | GitHub                             | http://https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/blob/main/documentos/03-Metodologia.m                         |
-| Documentos do projeto               | GitHub                             | http:https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/edit/main/documentos/03-Metodologia.md                          |
-| Projeto de Interface                | Figma                              | http:https://powerpoint.cloud.microsoft/pt-br/                     |
+| Repositório de código fonte         | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/blob/main/documentos/03-Metodologia.m                         |
+| Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/edit/main/documentos/03-Metodologia.md                          |
+| Projeto de Interface                | Figma                              |https://powerpoint.cloud.microsoft/pt-br/                     |
 | Gerenciamento do Projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/edit/main/documentos/03-Metodologia.md
 | Hospedagem                          | GitHub Pages                       |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/edit/main/documentos/03-Metodologia.md                           |
 
