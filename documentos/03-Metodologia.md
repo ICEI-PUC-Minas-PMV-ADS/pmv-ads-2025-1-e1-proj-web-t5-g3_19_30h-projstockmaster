@@ -9,7 +9,6 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
 - Scrum Master:Thiago Luigi
 - Product Owner: Jair Junior ; Gabriel Lorran
 - Equipe de Desenvolvimento: Lucas Fonseca; Thiago Luigi.
