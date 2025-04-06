@@ -61,13 +61,15 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 [Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
 
+As principais ferramentas utilizadas até agora foram o PowerPoint, para desenvolver o projeto de interface, e o GitHub, que tem sido essencial para organizar e gerenciar as demais demandas do projeto.
+
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/blob/main/documentos/03-Metodologia.m                         |
 | Documentos do projeto               | GitHub                             | http:https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/edit/main/documentos/03-Metodologia.md                          |
-| Projeto de Interface                | Figma                              | http://......                          |
+| Projeto de Interface                | Figma                              | http:https://powerpoint.cloud.microsoft/pt-br/                     |
 | Gerenciamento do Projeto            | GitHub Projects                    |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/edit/main/documentos/03-Metodologia.md
 | Hospedagem                          | GitHub Pages                       |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/edit/main/documentos/03-Metodologia.md                           |
 
