@@ -112,12 +112,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  Cadastrar conta de usuário| ALTA| 
-| RF-02 |  Permitir login| ALTA|
+| RF-01 | A aplicação deve permitir ao usuário cadastrar uma conta| ALTA| 
+| RF-02 | A aplicação deve permitir ao usuário fazer login em sua conta| ALTA|
 | RF-03 |A aplicação deve permitir ao usuário cadastrar manuais de processos| MÉDIA|
 | RF-04 |A aplicação deve permitir ao usuário filtrar os manuais cadastrados através de filtros de pesquisas| MÉDIA|
 | RF-05 |A aplicação deve permitir ao usuário cadastrar produtos| ALTA|
@@ -139,7 +138,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Requisitos não Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos não-funcionais]
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
