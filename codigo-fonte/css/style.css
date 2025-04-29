@@ -1,210 +1,217 @@
-
 /* ESTILOS GERAIS DA SIDEBAR */
 .sidebar {
-    --selected-color: #004B49;
-    --text-color: #333;
-    --text-selected: white;
-    --bg-color: #e0e0e0;
-    --hover-color: #d0d0d0;
-    --border-radius: 6px;
-    
-    width: 250px;
-    height: 100vh;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    padding: 20px 0;
+  --selected-color: #004B49;
+  --text-color: #333;
+  --text-selected: white;
+  --bg-color: #e0e0e0;
+  --hover-color: #d0d0d0;
+  --border-radius: 6px;
+
+  width: 250px;
+  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Logo */
+.sidebar .logo {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #b0b0b0;
+  margin-bottom: 20px;
+}
+
+.sidebar .logo img {
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Menu de Navegação */
+.sidebar .nav-menu {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.sidebar .nav-item {
+  margin: 8px 0;
+}
+
+.sidebar .nav-link {
+  display: block;
+  padding: 12px 20px;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: var(--border-radius);
+  border-left: 4px solid transparent;
+}
+
+/* Hover */
+.sidebar .nav-link:hover {
+  background-color: var(--hover-color);
+}
+
+/* Item Selecionado */
+.sidebar .nav-link.selected {
+  background-color: var(--selected-color);
+  color: var(--text-selected);
+  border-left: 4px solid var(--selected-color);
+  font-weight: bold;
+}
+
+/* ESTILOS PARA MOBILE */
+
+@media (max-width: 768px) {
+
+  /* Botão do Menu Mobile */
+  .mobile-menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 101;
+    background: var(--selected-color);
+    color: white;
+    border: none;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .mobile-menu-toggle:hover {
+    background: #003a38;
+  }
+
+  .mobile-menu-toggle .close-icon {
+    display: none;
+  }
+
+  /* Sidebar no Mobile */
+  .sidebar {
+    transform: translateX(-100%);
+    width: 80%;
+    max-width: 300px;
+    box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar.active {
+    transform: translateX(0);
+  }
+
+  /* Overlay quando menu está aberto */
+  .sidebar-overlay {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
-    overflow-y: auto;
-    transition: transform 0.3s ease;
-  }
-  
-  /* Logo */
-  .sidebar .logo {
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: 1px solid #b0b0b0;
-    margin-bottom: 20px;
-  }
-  
-  .sidebar .logo img {
-    max-width: 180px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  /* Menu de Navegação */
-  .sidebar .nav-menu {
-    list-style: none;
-    padding: 0 15px;
-  }
-  
-  .sidebar .nav-item {
-    margin: 8px 0;
-  }
-  
-  .sidebar .nav-link {
-    display: block;
-    padding: 12px 20px;
-    color: var(--text-color);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    border-radius: var(--border-radius);
-    border-left: 4px solid transparent;
-  }
-  
-  /* Hover */
-  .sidebar .nav-link:hover {
-    background-color: var(--hover-color);
-  }
-  
-  /* Item Selecionado */
-  .sidebar .nav-link.selected {
-    background-color: var(--selected-color);
-    color: var(--text-selected);
-    border-left: 4px solid var(--selected-color);
-    font-weight: bold;
-  }
-
-  /* ESTILOS PARA MOBILE */
-  
-  @media (max-width: 768px) {
-    /* Botão do Menu Mobile */
-    .mobile-menu-toggle {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: fixed;
-      top: 15px;
-      left: 15px;
-      z-index: 101;
-      background: var(--selected-color);
-      color: white;
-      border: none;
-      font-size: 24px;
-      width: 40px;
-      height: 40px;
-      border-radius: var(--border-radius);
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    
-    .mobile-menu-toggle:hover {
-      background: #003a38;
-    }
-    
-    .mobile-menu-toggle .close-icon {
-      display: none;
-    }
-    
-    /* Sidebar no Mobile */
-    .sidebar {
-      transform: translateX(-100%);
-      width: 80%;
-      max-width: 300px;
-      box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
-    }
-    
-    .sidebar.active {
-      transform: translateX(0);
-    }
-    
-    /* Overlay quando menu está aberto */
-    .sidebar-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.5);
-      z-index: 99;
-      opacity: 0;
-      visibility: hidden;
-      transition: all 0.3s ease;
-    }
-    
-    .sidebar-overlay.active {
-      opacity: 1;
-      visibility: visible;
-    }
-    
-    /* Quando o menu está aberto */
-    body.menu-open {
-      overflow: hidden;
-    }
-    
-    body.menu-open .mobile-menu-toggle .menu-icon {
-      display: none;
-    }
-    
-    body.menu-open .mobile-menu-toggle .close-icon {
-      display: block;
-    }
-  }
-
-  /* ANIMAÇÕES E ESTADOS */
-  /* Transição suave para itens */
-  .sidebar .nav-link {
-    transition: 
-      background-color 0.3s ease,
-      color 0.3s ease,
-      border-left 0.3s ease,
-      transform 0.2s ease;
-  }
-  
-  /* Efeito de "apertar" ao clicar */
-  .sidebar .nav-link:active {
-    transform: scale(0.98);
-  }
-  
-  /* Animações */
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateX(-10px); }
-    to { opacity: 1; transform: translateX(0); }
-  }
-  
-  .sidebar .nav-item {
-    animation: fadeIn 0.3s ease forwards;
-    animation-delay: calc(var(--i) * 0.05s);
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99;
     opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
   }
 
-  /* ACESSIBILIDADE */
-  .sidebar .nav-link:focus {
-    outline: 2px solid var(--selected-color);
-    outline-offset: 2px;
+  .sidebar-overlay.active {
+    opacity: 1;
+    visibility: visible;
   }
-  
-  .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
+
+  /* Quando o menu está aberto */
+  body.menu-open {
     overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
   }
 
-  /* SCROLLBAR (opcional) */
-  
-  .sidebar::-webkit-scrollbar {
-    width: 6px;
+  body.menu-open .mobile-menu-toggle .menu-icon {
+    display: none;
   }
-  
-  .sidebar::-webkit-scrollbar-track {
-    background: #f1f1f1;
+
+  body.menu-open .mobile-menu-toggle .close-icon {
+    display: block;
   }
-  
-  .sidebar::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 3px;
+}
+
+/* ANIMAÇÕES E ESTADOS */
+/* Transição suave para itens */
+.sidebar .nav-link {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease,
+    border-left 0.3s ease,
+    transform 0.2s ease;
+}
+
+/* Efeito de "apertar" ao clicar */
+.sidebar .nav-link:active {
+  transform: scale(0.98);
+}
+
+/* Animações */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
   }
-  
-  .sidebar::-webkit-scrollbar-thumb:hover {
-    background: #555;
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
+}
+
+.sidebar .nav-item {
+  animation: fadeIn 0.3s ease forwards;
+  animation-delay: calc(var(--i) * 0.05s);
+  opacity: 0;
+}
+
+/* ACESSIBILIDADE */
+.sidebar .nav-link:focus {
+  outline: 2px solid var(--selected-color);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* SCROLLBAR (opcional) */
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
