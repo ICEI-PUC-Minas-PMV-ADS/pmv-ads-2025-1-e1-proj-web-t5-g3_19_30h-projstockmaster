@@ -29,14 +29,14 @@ class SidebarManager {
       </button>
       <aside class="sidebar">
         <div class="logo">
-          <img src="img/logo.png" alt="StockMaster Logo">
+          <img src="../img/logo.png" alt="StockMaster Logo">
         </div>
         <ul class="nav-menu">
           <li class="nav-item">
             <a href="dashboard.html" class="nav-link" data-target="dashboard">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a href="produtos.html" class="nav-link" data-target="produtos">Gestão de produtos</a>
+            <a href="paginaGestaoDeProdutos/gestaoProd.html" class="nav-link" data-target="produtos">Gestão de produtos</a>
           </li>
           <li class="nav-item">
             <a href="pedidos.html" class="nav-link" data-target="pedidos">Pedidos</a>
