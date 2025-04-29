@@ -10,6 +10,11 @@ body {
 }
 
 /* Container Principal */
+.header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .register-container {
     background-color: white;
     border-radius: 8px;
@@ -134,4 +139,5 @@ body {
     .register-container {
         padding: 30px 20px;
     }
+
 }
