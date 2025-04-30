@@ -32,7 +32,7 @@ class SidebarManager {
             <a href="dashboard.html" class="nav-link" data-target="dashboard">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a href="../paginaGestaoDeProdutos/gestaoProd.html" class="nav-link" data-target="produtos">Gestão de produtos</a>
+            <a href="../paginaGestaoDeProdutos/gestaoProd.html" class="nav-link" data-target="gestaoProd">Gestão de produtos</a>
           </li>
           <li class="nav-item">
             <a href="../paginapedidos/pedidos.html" class="nav-link" data-target="pedidos">Pedidos</a>
@@ -44,7 +44,7 @@ class SidebarManager {
             <a href="../paginaderelatorios/relatorios.html" class="nav-link" data-target="relatorios">Relatórios</a>
           </li>
           <li class="nav-item">
-            <a href="../ConfiguracaoConta/config-conta.html" class="nav-link" data-target="configuracoes">Configurações</a>
+            <a href="../ConfiguracaoConta/config-conta.html" class="nav-link" data-target="config-conta">Configurações</a>
           </li>
         </ul>
       </aside>`;
@@ -120,7 +120,17 @@ class SidebarManager {
   }
 
   setActiveItem() {
-    const currentPage = window.location.pathname.split('/').pop().replace('.html', '');
+    // Pegar o nome do arquivo atual (sem .html)
+    const currentPath = window.location.pathname;
+    let currentPage = currentPath.split('/').pop().replace('.html', '');
+
+    // Verificar a página atual baseada no caminho
+    if (currentPath.includes('paginaGestaoDeProdutos')) {
+      currentPage = 'gestaoProd';
+    } else if (currentPath.includes('ConfiguracaoConta')) {
+      currentPage = 'config-conta';
+    }
+
     const activeLink = document.querySelector(`.nav-link[data-target="${currentPage}"]`);
 
     if (activeLink) {
