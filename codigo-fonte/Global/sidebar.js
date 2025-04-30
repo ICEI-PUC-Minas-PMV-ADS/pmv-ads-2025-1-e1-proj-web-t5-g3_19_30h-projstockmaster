@@ -23,20 +23,16 @@ class SidebarManager {
   
     injectSidebar() {
       const sidebarHTML = `
-      <button class="mobile-menu-toggle" id="menuToggle" aria-label="Abrir menu">
-        <span class="menu-icon">☰</span>
-        <span class="close-icon" style="display:none">×</span>
-      </button>
       <aside class="sidebar">
         <div class="logo">
-          <img src="../img/logo.png" alt="StockMaster Logo">
+          <img src="../global/logo.png" alt="StockMaster Logo">
         </div>
         <ul class="nav-menu">
           <li class="nav-item">
             <a href="dashboard.html" class="nav-link" data-target="dashboard">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a href="paginaGestaoDeProdutos/gestaoProd.html" class="nav-link" data-target="produtos">Gestão de produtos</a>
+            <a href="../paginaGestaoDeProdutos/gestaoProd.html" class="nav-link" data-target="produtos">Gestão de produtos</a>
           </li>
           <li class="nav-item">
             <a href="pedidos.html" class="nav-link" data-target="pedidos">Pedidos</a>
@@ -48,7 +44,7 @@ class SidebarManager {
             <a href="relatorios.html" class="nav-link" data-target="relatorios">Relatórios</a>
           </li>
           <li class="nav-item">
-            <a href="config-conta.html" class="nav-link" data-target="configuracoes">Configurações</a>
+            <a href="../ConfiguracaoConta/config-conta.html" class="nav-link" data-target="configuracoes">Configurações</a>
           </li>
         </ul>
       </aside>`;
