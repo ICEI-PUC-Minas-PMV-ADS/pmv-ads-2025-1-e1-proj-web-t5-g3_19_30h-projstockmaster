@@ -23,8 +23,6 @@ class SidebarManager {
   
     injectSidebar() {
       const sidebarHTML = `
-      <button class="mobile-menu-toggle" id="menuToggle" aria-label="Abrir menu">
-      </button>
       <aside class="sidebar">
         <div class="logo">
           <img src="../global/logo.png" alt="StockMaster Logo">
