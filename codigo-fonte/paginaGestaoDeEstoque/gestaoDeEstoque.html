@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de estoque</title>
+    <link rel="stylesheet" href="gestaoDeEstoque.css">
+    <link rel="stylesheet" href="../Global/style.css">
+</head>
+<body>
+    
+    <div class="main-content">
+        <div class="header">
+            <h1>Gestão de estoque</h1>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Busque um produto:</label>
+                    <input type="text" class="form-control" placeholder="Insira nome, categoria, lote...">
+                    <div class="action-buttons">
+                        <button class="btn btn-primary">Buscar</button>
+                    </div>
+                </div>
+                <div class="action-buttons">
+                <select name="Ordenar por">
+                    <option value="ordenarPor">Ordenar por ↓</option>
+                    <option value="nome">Nome</option>
+                    <option value="categoria">Categoria</option>
+                    <option value="lote">Lote</option>
+                    <option value="validade">Validade</option>
+                    option value="quantidade">Quantidade</option>
+                </select>
+                    <button class="btn btn-secondary">← Voltar</button>
+                </div>
+            </div>
+         
+        <div class="inventory-section">
+            <h2>Itens em estoque</h2>
+            <table class="inventory-table">
+                <thead>
+                    <tr>
+                        <th>NOME</th>
+                        <th>CATEGORIA</th>
+                        <th>LOTE</th>
+                        <th>VALIDADE</th>
+                        <th>QUANTIDADE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Coca-cola 350ml</td>
+                        <td>Refrigerantes</td>
+                        <td>12345</td>
+                        <td>25/07/2026</td>
+                        <td>57</td>
+                    </tr>
+                    <tr>
+                        <td>Coca-cola 1L</td>
+                        <td>Refrigerantes</td>
+                        <td>44466</td>
+                        <td>31/10/2026</td>
+                        <td>42</td>
+                    </tr>
+                    <tr>
+                        <td>Del Valle 1L</td>
+                        <td>Sucos</td>
+                        <td>95148</td>
+                        <td>17/09/2025</td>
+                        <td class="quantity-alert">10 ⚠️</td>
+                    </tr>
+                    <tr>
+                        <td>Red Bull 250ml</td>
+                        <td>Energéticos</td>
+                        <td>87463</td>
+                        <td>25/04/2025</td>
+                        <td class="quantity-alert">5 ⚠️</td>
+                    </tr>
+                    <tr>
+                        <td>Red Bull 473ml</td>
+                        <td>Energéticos</td>
+                        <td>51287</td>
+                        <td>03/07/2025</td>
+                        <td>82</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="../Global/sidebar.js"></script> 
+    <script src="gestaoProd.js"></script> 
+</body>
+</html>
