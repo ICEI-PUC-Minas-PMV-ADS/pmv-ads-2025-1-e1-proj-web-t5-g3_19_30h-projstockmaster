@@ -24,8 +24,6 @@ class SidebarManager {
     injectSidebar() {
       const sidebarHTML = `
       <button class="mobile-menu-toggle" id="menuToggle" aria-label="Abrir menu">
-        <span class="menu-icon">☰</span>
-        <span class="close-icon" style="display:none">×</span>
       </button>
       <aside class="sidebar">
         <div class="logo">
