@@ -38,7 +38,7 @@ class SidebarManager {
             <a href="../paginapedidos/pedidos.html" class="nav-link" data-target="pedidos">Pedidos</a>
           </li>
           <li class="nav-item">
-            <a href="estoque.html" class="nav-link" data-target="estoque">Gestão de estoque</a>
+            <a href="../paginaGestaoDeEstoque/gestaoDeEstoque.html" class="nav-link" data-target="estoque">Gestão de estoque</a>
           </li>
           <li class="nav-item">
             <a href="../paginaderelatorios/relatorios.html" class="nav-link" data-target="relatorios">Relatórios</a>
