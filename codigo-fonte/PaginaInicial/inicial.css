@@ -9,10 +9,13 @@
     margin-left: 250px;
     width: calc(100% - 250px);
     height: 100vh;
+    position: relative;
+    z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0;
+    overflow: auto;
 }
 
 .welcome-container {
