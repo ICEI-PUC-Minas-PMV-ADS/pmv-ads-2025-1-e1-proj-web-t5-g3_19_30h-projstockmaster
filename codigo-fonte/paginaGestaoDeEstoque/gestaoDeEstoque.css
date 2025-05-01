@@ -77,7 +77,7 @@ body {
 }
 
 .action-buttons {
-    display: flex;
+    display: inline-block;
     gap: 15px;
     margin-bottom: 20px;
 }
@@ -91,17 +91,23 @@ body {
 }
 
 .btn-primary {
+    display: inline-block;
     background-color: #0a7c7c;
     color: white;
     border-color: #0a7c7c;
 }
 
 .btn-secondary {
+    display: inline-block;
     background-color: white;
     color: #0a7c7c;
     border-color: #0a7c7c;
 }
 
+.select {
+    background-color: #0a7c7c;
+    color:#f9f9f9
+}
 .form-row {
     display: flex;
     gap: 20px;
@@ -110,7 +116,7 @@ body {
 
 .form-group {
     flex: 1;
-    align-items: normal;
+    display: inline-block;
 }
 
 .form-group label {
@@ -121,7 +127,7 @@ body {
 }
 
 .form-control {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -174,6 +180,7 @@ body {
     color: #333;
     margin-bottom: 15px;
     text-align: center;
+    font-family: 'AvenirNextProRegular';
 }
 
 .inventory-table {
