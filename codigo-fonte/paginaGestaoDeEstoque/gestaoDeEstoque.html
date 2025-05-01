@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,27 +12,19 @@
     <div class="main-content">
         <div class="header">
             <h1>Gestão de estoque</h1>
-            <div class="form-row">
-                <div class="form-group">
-                    <label>Busque um produto:</label>
-                    <input type="text" class="form-control" placeholder="Insira nome, categoria, lote...">
-                    <div class="action-buttons">
-                        <button class="btn btn-primary">Buscar</button>
-                    </div>
-                </div>
-                <div class="custom-select" style="width:100px;">
-                    <select>
-                      <option value="0">Ordenar por ↓</option>
-                      <option value="1">Nome</option>
-                      <option value="2">Categoria</option>
-                      <option value="3">Lote</option>
-                      <option value="4">Validade</option>
-                      <option value="5">Quantidade</option>
-                    </select>
-                  </div>
-                  <div class="action-buttons">
-                    <button class="btn btn-primary">Voltar</button>
-                </div>
+            <label>Busque um produto:</label>
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Insira nome, categoria, lote...">
+                <button class="search-button">Buscar</button>
+                <select class="sort-select">
+                    <option value="0">Ordenar por ↓</option>
+                    <option value="1">Nome</option>
+                    <option value="2">Categoria</option>
+                    <option value="3">Lote</option>
+                    <option value="4">Validade</option>
+                    <option value="5">Quantidade</option>
+                </select>
+                <button class="back-button"> ← Voltar</button>
             </div>
          
         <div class="inventory-section">
