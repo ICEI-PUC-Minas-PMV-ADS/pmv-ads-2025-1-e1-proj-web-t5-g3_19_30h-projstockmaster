@@ -76,10 +76,30 @@ body {
     font-weight: bolder;
 }
 
+.form-group {
+    flex: 1;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 16px;
+}
+
+.form-control {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
 .action-buttons {
     display: inline-block;
     gap: 15px;
     margin-bottom: 20px;
+    height: 60px;
 }
 
 .btn {
@@ -104,34 +124,67 @@ body {
     border-color: #0a7c7c;
 }
 
-.select {
+.custom-select {
+    position: relative;
+    display: inline-block;
+    font-family: "CalibriLight";
+    gap: 15px;
+    margin-bottom: 20px;
+    height: 60px;
     background-color: #0a7c7c;
-    color:#f9f9f9
-}
+    color: white;
+    border-color: #0a7c7c;
+
+  }
+    
+  .select-selected {
+    background-color: #0a7c7c;
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color:#0a7c7c;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
 .form-row {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
-}
-
-.form-group {
-    flex: 1;
-    display: inline-block;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-    font-size: 16px;
-}
-
-.form-control {
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
 }
 
 .dropdown {
