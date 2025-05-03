@@ -29,7 +29,7 @@ class SidebarManager {
         </div>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="dashboard.html" class="nav-link" data-target="dashboard">Dashboard</a>
+            <a href="../Dashboard/dashboard.html" class="nav-link" data-target="dashboard">Dashboard</a>
           </li>
           <li class="nav-item">
             <a href="../paginaGestaoDeProdutos/gestaoProd.html" class="nav-link" data-target="gestaoProd">Gestão de produtos</a>
