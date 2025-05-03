@@ -1,4 +1,9 @@
 /* ESTILOS GERAIS DA SIDEBAR */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .sidebar {
   --selected-color: #004B49;
   --text-color: #333;
@@ -6,6 +11,7 @@
   --bg-color: #e0e0e0;
   --hover-color: #d0d0d0;
   --border-radius: 6px;
+
 
   width: 261px;
   height: 100vh;
