@@ -1,8 +1,30 @@
+@font-face {
+    font-family: "AvenirNextProRegular";
+    src: url(../Global/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: "CalibriLight";
+    src: url(../Global/fonts/calibril.ttf);
+}
+ /*ALTERAÇÃO FONTS*/
+
+ h2 {
+    color: #0a5c5c;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bolder;
+ }
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'CalibriLight', sans-serif;
+    font-size: 20px;
 }
 
 body {
@@ -73,6 +95,7 @@ body {
 .header h2 {
     color: #0b5345;
     font-size: 28px;
+    text-align: center;
 }
 
 .back-button {
@@ -172,6 +195,7 @@ body {
     margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
+    font-family: 'AvenirNextProRegular';
 }
 
 .orders-table {
@@ -183,7 +207,7 @@ body {
 .orders-table th {
     background-color: #cce5e5;
     padding: 12px;
-    text-align: left;
+    text-align: center;
     color: #0b5345;
     font-weight: bold;
     border-right: 1px dotted #aaa;
