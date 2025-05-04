@@ -1,48 +1,37 @@
-/* Área de Conteúdo */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 .main-content {
-    margin-left: 250px;
-    width: calc(100% - 250px);
-    height: 100vh;
+    margin-left: var(--sidebar-width);
+    width: calc(100% - var(--sidebar-width));
+    min-height: 100vh;
     position: relative;
     z-index: 2;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    overflow: auto;
+    padding: 20px;
+    transition: margin-left var(--transition-time) ease;
 }
 
 .welcome-container {
     width: 100%;
+    max-width: 1200px;
     text-align: center;
+    padding: 20px;
 }
 
 .welcome-message h1 {
-    color: #004B49;
-    font-size: 2.5rem;
+    color: var(--selected-color);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
     margin-bottom: 20px;
     font-weight: bold;
-
 }
 
 .welcome-message p {
     color: #7f8c8d;
+    font-size: clamp(1rem, 2vw, 1.2rem);
 }
 
 .welcome-logo {
-    max-width: 1000px;
+    max-width: min(100%, 800px);
     height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Remove o padding padrão do main-content */
-.main-content {
-    padding: 0;
+    margin: 20px auto;
 }
