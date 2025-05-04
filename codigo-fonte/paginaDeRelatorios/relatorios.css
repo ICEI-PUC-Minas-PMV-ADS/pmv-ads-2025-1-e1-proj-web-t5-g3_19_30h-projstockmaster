@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "AvenirNextProRegular";
+    src: url(../Global/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: "CalibriLight";
+    src: url(../Global/fonts/calibril.ttf);
+}
+
 /* Estilos específicos para a página de relatórios */
 :root {
     --primary-color: #004B49;
@@ -11,11 +21,30 @@
     --card-bg-right: #c5e0e0;
 }
 
+/* Inclusão fonts */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'AvenirNextProRegular';
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    color: #0a5c5c;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bolder;
+}
+
+h2 {
+    color: #000;
+    font-size: 22px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bold;
 }
 
 .main-content {
