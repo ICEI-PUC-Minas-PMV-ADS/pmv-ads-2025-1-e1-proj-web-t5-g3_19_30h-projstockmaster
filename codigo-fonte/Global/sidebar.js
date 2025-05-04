@@ -109,4 +109,20 @@ class SidebarManager {
   }
 }
 
+<<<<<<< Updated upstream
 document.addEventListener('DOMContentLoaded', () => new SidebarManager());
+=======
+// const sidebar = document.querySelector(".sidebar");
+// if (sidebar) {
+//   sidebar.addEventListener("click", () => {
+//     console.log("Sidebar clicada!");
+//   });
+// } else {
+//   console.error("Erro: elemento .sidebar não encontrado!");
+// }
+
+// Inicializar quando o DOM estiver pronto
+document.addEventListener('DOMContentLoaded', () => {
+  new SidebarManager();
+});
+>>>>>>> Stashed changes
