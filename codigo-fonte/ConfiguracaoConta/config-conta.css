@@ -12,14 +12,14 @@ body {
     background-color: #f0f0f0;
 }
 
-.sidebar {
+/* .sidebar {
     width: 280px;
     background-color: #f0f0f0;
     padding: 20px;
     border-right: 1px solid #EAEAEA;
     background-color: #EAEAEA;
     transition: all 0.3s ease;
-}
+} */
 
 .logo {
     margin-bottom: 30px;
@@ -227,7 +227,7 @@ h2 {
         flex-direction: column;
     }
 
-    .sidebar {
+    /* .sidebar {
         width: 100%;
         max-height: 0;
         overflow: hidden;
@@ -240,13 +240,13 @@ h2 {
         left: 0;
         z-index: 998;
         transition: max-height 0.5s ease;
-    }
+    } */
 
-    .sidebar.open {
+    /* .sidebar.open {
         max-height: 100vh;
         padding: 20px;
         overflow-y: auto;
-    }
+    } */
 
     .mobile-menu-toggle {
         display: block;

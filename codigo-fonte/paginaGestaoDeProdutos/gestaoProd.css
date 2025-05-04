@@ -11,13 +11,13 @@ body {
 }
 
 
-.sidebar {
+/* .sidebar {
     width: 270px;
     background-color: #f5f7f7;
     padding: 20px;
     height: 100vh;
     border-right: 1px solid #e0e0e0;
-}
+} */
 
 .logo {
     margin-bottom: 40px;
@@ -30,23 +30,22 @@ body {
     max-width: 200px;
 }
 
-.sidebar-menu {
+/* .sidebar-menu {
     list-style: none;
-}
+} */
 
-.sidebar-menu li {
+/* .sidebar-menu li {
     margin-bottom: 15px;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-}
+} */
 
-.sidebar-menu li.active {
+/* .sidebar-menu li.active {
     background-color: #0a7c7c;
     color: white;
-}
-
+} */
 
 .main-content {
     flex: 1;
