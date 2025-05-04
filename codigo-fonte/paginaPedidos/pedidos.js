@@ -1,4 +1,4 @@
-
+/*
 // Dados iniciais para demonstração (serão substituídos pelos dados do localStorage)
 const dadosIniciais = [
     {
