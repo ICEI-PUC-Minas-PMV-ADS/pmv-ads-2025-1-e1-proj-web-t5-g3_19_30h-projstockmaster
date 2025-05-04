@@ -47,3 +47,4 @@ new Chart(ctx, {
         }
     }
 });
+
