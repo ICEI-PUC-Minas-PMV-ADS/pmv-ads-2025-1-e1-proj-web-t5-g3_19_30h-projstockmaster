@@ -14,6 +14,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    margin-right: 150px;
 }
 
 h1 {
@@ -91,7 +92,7 @@ h1 {
     position: relative;
 }
 
-.menu-icon {
+.menu-icon-dashboard {
     background-color: #006666;
     color: white;
     width: 90px;
