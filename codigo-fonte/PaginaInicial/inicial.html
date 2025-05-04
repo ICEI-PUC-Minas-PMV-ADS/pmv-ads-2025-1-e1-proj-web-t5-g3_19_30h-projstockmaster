@@ -6,19 +6,29 @@
     <title>Stock Master - Dashboard</title>
     <link rel="stylesheet" href="../Global/style.css">
     <link rel="stylesheet" href="inicial.css">
+    <link rel="stylesheet" href="../Global/sidebar.css">
 </head>
 <body>
-<!-- Conteúdo Principal -->
-<main class="main-content">
-    <div class="welcome-container">
-        <div class="welcome-message">
-            <h1>Bem-vindos ao</h1>
-            <img src="../Global/logo.png" alt="Stock Master Logo" class="welcome-logo">
-            <p>Selecione uma opção no menu lateral para começar.</p>
-        </div>
-    </div>
-</main>
+    <!-- Botão de Toggle Mobile -->
+    <button id="menuToggle" class="mobile-menu-toggle" aria-label="Abrir menu">
+        <span class="menu-icon">☰</span>
+        <span class="close-icon" style="display: none;">×</span>
+    </button>
+    
+    <!-- Overlay para Mobile -->
+    <div class="sidebar-overlay"></div>
 
-<script src="../Global/sidebar.js"></script>
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <div class="welcome-container">
+            <div class="welcome-message">
+                <h1>Bem-vindos ao</h1>
+                <img src="../Global/logo.png" alt="Stock Master Logo" class="welcome-logo">
+                <p>Selecione uma opção no menu lateral para começar.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="../Global/sidebar.js"></script>
 </body>
 </html>
