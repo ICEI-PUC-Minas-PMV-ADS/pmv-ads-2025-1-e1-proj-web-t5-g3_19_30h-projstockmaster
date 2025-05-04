@@ -1,8 +1,49 @@
+@font-face {
+    font-family: "AvenirNextProRegular";
+    src: url(../Global/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: "CalibriLight";
+    src: url(../Global/fonts/calibril.ttf);
+}
+
+
+/* Inclusão fonts */
+body {
+    font-family: 'CalibriLight';
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+h1 {
+    color: #0a5c5c;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bolder;
+}
+
+h2 {
+    color: #000;
+    font-size: 22px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bold;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'CalibriLight';
+    font-size: 20px;
 }
 
 body {
@@ -70,18 +111,19 @@ body {
     margin-bottom: 30px;
 }
 
-.header h2 {
+/* .header h1 {
     color: #0b5345;
     font-size: 28px;
-}
+    text-align: center;
+}*/
 
-.back-button {
+#back-button {
     background-color: #0b5345;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    display: flex;
+    text-align: center;
     align-items: center;
     cursor: pointer;
 }
@@ -105,6 +147,7 @@ body {
     cursor: pointer;
     text-align: center;
     min-width: 150px;
+    width: 25%;
 }
 
 .form-container {
