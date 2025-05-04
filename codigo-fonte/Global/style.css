@@ -205,8 +205,7 @@ body {
   border-width: 0;
 }
 
-/* SCROLLBAR (opcional) */
-
+/* SCROLLBAR PERSONALIZADO */
 .sidebar::-webkit-scrollbar {
   width: 6px;
 }
