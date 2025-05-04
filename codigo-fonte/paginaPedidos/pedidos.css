@@ -207,7 +207,7 @@ body {
 .orders-table th {
     background-color: #cce5e5;
     padding: 12px;
-    text-align: center;
+    text-align: left;
     color: #0b5345;
     font-weight: bold;
     border-right: 1px dotted #aaa;
