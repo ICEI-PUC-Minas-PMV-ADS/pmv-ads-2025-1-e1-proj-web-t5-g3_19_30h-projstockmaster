@@ -1,4 +1,3 @@
-// sidebar.js 
 class SidebarManager {
   constructor() {
     this.sidebar = null;
