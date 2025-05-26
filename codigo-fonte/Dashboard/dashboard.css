@@ -7,9 +7,10 @@
     font-family: "CalibriLight";
     src: url(../Global/fonts/calibril.ttf);
 }
- /*ALTERAÇÃO FONTS*/
 
- 
+/*ALTERAÇÃO FONTS*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -109,6 +110,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     position: relative;
+
 }
 
 .menu-icon-dashboard {
@@ -141,6 +143,10 @@ h1 {
     font-size: 14px;
     white-space: nowrap;
     display: none;
+}
+
+.apaga {
+    text-decoration: none;
 }
 
 #ico {
