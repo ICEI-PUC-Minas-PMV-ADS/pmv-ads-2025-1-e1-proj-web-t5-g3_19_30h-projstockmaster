@@ -1,9 +1,23 @@
+@font-face {
+    font-family: "AvenirNextProRegular";
+    src: url(../Global/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: "CalibriLight";
+    src: url(../Global/fonts/calibril.ttf);
+}
+
+
+
+
 /*Config-Conta*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'CalibriLight';
+    font-size: 20px;
 }
 
 body {
@@ -35,7 +49,7 @@ body {
 .menu-item {
     padding: 15px 0;
     color: #333;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -66,9 +80,12 @@ body {
 
 .content h1 {
     font-size: 28px;
-    color: #006666;
     margin-bottom: 20px;
     text-align: center;
+    color: #0a5c5c;
+    text-align: center;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bolder;
 }
 
 .form-group {
@@ -81,7 +98,7 @@ body {
 .form-group label {
     width: 180px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 
@@ -92,7 +109,7 @@ body {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .form-group input[type="checkbox"] {
@@ -108,12 +125,13 @@ body {
 }
 
 .notification-option label {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 15px;
+    font-family: 'AvenirNextProRegular';
 }
 
 .btn {
@@ -123,7 +141,7 @@ h2 {
     margin-bottom: 15px;
     text-align: center;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     border: none;
     transition: all 0.3s ease;
