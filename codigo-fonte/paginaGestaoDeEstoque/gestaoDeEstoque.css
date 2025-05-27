@@ -13,6 +13,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'CalibriLight';
+    font-size: 20px;
+}
+
+.main-content {
+    margin-left: var(--sidebar-width);
+    width: calc(100% - var(--sidebar-width));
+    /*min-height: 100vh;*/
+    position: relative;
+    z-index: 2;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    transition: margin-left var(--transition-time) ease;
 }
 
 body {
@@ -86,14 +100,14 @@ body {
 .search-container label {
     white-space: nowrap;
     color: #333;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .search-input {
     width: 50%;
     padding: 10px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid #ccc;
     height: 42px;
 }
@@ -103,7 +117,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #0a7c7c;
     color: white;
     border: 1px solid #0a7c7c;
@@ -114,7 +128,7 @@ body {
 .sort-select {
     padding: 10px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid #ccc;
     height: 42px;
     width: 20%;
@@ -125,7 +139,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     background-color: #0a7c7c;
     color: white;
     border: 1px solid #0a7c7c;
@@ -141,13 +155,13 @@ body {
     display: block;
     margin-bottom: 5px;
     color: #333;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .form-control {
     padding: 10px;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid #ccc;
     width: 100%;
     flex-grow: 1;
@@ -164,7 +178,7 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid;
 }
 
