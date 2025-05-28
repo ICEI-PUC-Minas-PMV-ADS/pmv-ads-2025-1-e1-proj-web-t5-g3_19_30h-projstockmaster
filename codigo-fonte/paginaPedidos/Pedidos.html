@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,30 +10,31 @@
     <link rel="stylesheet" href="config-conta.css"> <!-- CSS específico -->
     <script src="pedidos.js" defer></script>
 </head>
+
 <body>
     <!-- Botão de Toggle Mobile -->
     <button id="menuToggle" class="mobile-menu-toggle" aria-label="Abrir menu">
         <span class="menu-icon">☰</span>
         <span class="close-icon" style="display: none;">×</span>
     </button>
-    
+
     <!-- Overlay para Mobile -->
     <div class="sidebar-overlay"></div>
-    
+
     <div class="main-content">
         <div class="header">
             <h2>Pedidos</h2>
-            <a class="back-button">
+            <a href="../Dashboard/dashboard.html" class="back-button">
                 ← Voltar
             </a>
         </div>
-        
+
         <div class="action-buttons">
             <button class="action-button" id="btn-novo-pedido">Novo pedido</button>
-            <button class="action-button" id="btn-editar">Editar</button>
+            <button class="action-button" id="btn-editar">Clique no produto para editar</button>
             <button class="action-button" id="btn-gerenciar">Gerenciar pedidos</button>
         </div>
-        
+
         <div class="form-container" id="form-pedido">
             <div class="form-row">
                 <div class="form-group">
@@ -48,7 +50,7 @@
                     <input type="text" id="fornecedor" placeholder="Nome do fornecedor">
                 </div>
             </div>
-            
+
             <div class="form-row">
                 <div class="form-group">
                     <label>Data de entrada:</label>
@@ -63,13 +65,13 @@
                     <input type="text" id="valor-unitario" placeholder="Valor de compra por item">
                 </div>
             </div>
-            
+
             <div class="form-actions">
                 <button class="btn-save" id="btn-salvar">Salvar</button>
                 <button class="btn-cancel" id="btn-cancelar">Cancelar</button>
             </div>
         </div>
-        
+
         <div class="orders-section">
             <h3>Pedidos entregues</h3>
             <table class="orders-table">
@@ -89,8 +91,9 @@
             </table>
         </div>
     </div>
-    
+
     <div class="notification" id="notification">Pedido salvo com sucesso!</div>
     <script src="../Global/sidebar.js"></script>
 </body>
+
 </html>
