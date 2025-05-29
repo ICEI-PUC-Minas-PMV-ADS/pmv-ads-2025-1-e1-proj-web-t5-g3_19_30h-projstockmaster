@@ -4,14 +4,12 @@
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
 
-|  Caso de Teste  | Requisitos Associados | Objetivo do Teste | Passos |Indicar os critérios de êxito | Responsável |
-|     :---:       |           ---         |          ---      |   ---  |          ---                 |      ---    |
-|CT-01: Verificar o funcionamento dos links da página Home|RF-001: O site deve permitir ao usuário cadastrar uma conta.|                   |teste   |djhaksdhkajsdhkashd           |             |
-|  | RF-002: O site deve permitir ao usuário fazer o login da sua conta.|teste              |teste   |dskjhdbgkajhsdbkajhsdbkasdda  |dsakjdladad  |
-|     | RF-005: O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.  |teste              |teste   |djlwkahsdka                   |dajhedddwjda |
-|     | RF-007: O site deve permitir ao usuário visualizar os detalhes do livro.                |                   |        |
-
-
+| Caso de Teste  | Requisitos Associados | Objetivo do Teste | Passos | Critérios de Êxito | Responsável |
+|---------------|----------------------|------------------|--------|-------------------|-------------|
+| CT-01: Verificar funcionamento dos links da página Home | RF-001: O site deve permitir ao usuário cadastrar uma conta. | Validar navegação correta | Teste | Links funcionam corretamente | João |
+| CT-02: Testar login de usuário | RF-002: O site deve permitir ao usuário fazer login | Confirmar acesso ao sistema | Teste | Login bem-sucedido | Maria |
+| CT-03: Verificar informações de tutoria | RF-005: O site deve permitir visualizar disciplinas e contato | Validar exibição correta | Teste | Informações são exibidas corretamente | Pedro |
+| CT-04: Validar detalhes do livro | RF-007: O site deve permitir visualizar detalhes do livro | Conferir exibição de conteúdo | Teste | Informações corretas e legíveis | Ana |
 
 
  
