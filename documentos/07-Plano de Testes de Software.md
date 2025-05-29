@@ -1,24 +1,21 @@
-Os testes funcionais a serem realizados na aplicação são descritos a seguir.
+# Plano de Testes de Software
 
-Caso de teste	Requisitos associados	Objetivo do teste	Passos	Critérios de êxito	Responsável
-CT-01: Verificar o funcionamento dos links da página Home	
-RF-001: O site deve permitir ao usuário cadastrar uma conta.
-RF-002: O site deve permitir ao usuário fazer o login da sua conta.
-RF-005: O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.
-RF-007: O site deve permitir ao usuário visualizar os detalhes do livro.
-Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente	
-Acessar o navegador.
-Informar o endereço do site.
-Visualizar a página Home.
-Clicar nos links da página Home.
-Todos os links da página Home devem encaminhar os usuários para as páginas descritas.	Maria
-Caso de teste	Requisitos associados	Objetivo do teste	Passos	Critérios de êxito	Responsável
-CT-02: Verificar o funcionamento do filtro de pesquisa	
-RF-003: O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar livros e disciplinas das tutorias disponíveis.
-Verificar se o filtro de pesquisa está recuperando os dados inseridos pelo usuário	
-Acessar o navegador.
-Informar o endereço do site.
-Visualizar a página Home.
-Clicar na página Livros.
-Digitar no filtro de pesquisa algum dado presente na página Livros e verificar se o resultado é exibido na página.
-Os dados inseridos no filtro de pesquisa devem mostrar o livro onde há o dado informado.	Maria
+[Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
+
+Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+
+|Caso de Teste | CT-X - Título Caso de Teste |
+|CT-01: Verificar o funcionamento dos links da página Home|:RF-001: O site deve permitir ao usuário cadastrar uma conta.
+RF-002: O site deve permitir ao usuário fazer o login da sua conta.|
+| Requisitos Associados | RF-X |
+| Objetivo do Teste | Descrição do objetivo do teste |
+| Passos | Indicar passos para a execução do teste |
+| Critérios de êxito | Indicar os critérios de êxito  |
+| Responsável pela elaborar do caso de Teste | Nome do integrante da equipe |
+ 
+> **Links Úteis**:
+> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
+> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
+> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
