@@ -5,7 +5,7 @@
 Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
 
 |  Caso de Teste  | Requisitos Associados | Objetivo do Teste | Passos |Indicar os critérios de êxito | Responsável |
-|      ---        |           ---         |          ---      |   ---  |          ---                 |      ---    |
+|     :---:       |           ---         |          ---      |   ---  |          ---                 |      ---    |
 |CT-01: Verificar o funcionamento dos links da página Home|RF-001: O site deve permitir ao usuário cadastrar uma conta.|                   |teste   |djhaksdhkajsdhkashd           |             |
 |  | RF-002: O site deve permitir ao usuário fazer o login da sua conta.|teste              |teste   |dskjhdbgkajhsdbkajhsdbkasdda  |dsakjdladad  |
 |     | RF-005: O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.  |teste              |teste   |djlwkahsdka                   |dajhedddwjda |
