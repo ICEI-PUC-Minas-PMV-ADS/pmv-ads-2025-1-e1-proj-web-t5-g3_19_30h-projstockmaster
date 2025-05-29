@@ -5,8 +5,7 @@
 Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
 
 |Caso de Teste | CT-X - Título Caso de Teste |
-|CT-01: Verificar o funcionamento dos links da página Home|:RF-001: O site deve permitir ao usuário cadastrar uma conta.
-RF-002: O site deve permitir ao usuário fazer o login da sua conta.|
+|:---|:---|
 | Requisitos Associados | RF-X |
 | Objetivo do Teste | Descrição do objetivo do teste |
 | Passos | Indicar passos para a execução do teste |
