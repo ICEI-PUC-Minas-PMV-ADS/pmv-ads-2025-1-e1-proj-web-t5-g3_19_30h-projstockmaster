@@ -6,10 +6,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 
 |  Caso de Teste  | Requisitos Associados | Objetivo do Teste | Passos |Indicar os critérios de êxito | Responsável |
 |      ---        |           ---         |          ---      |   ---  |          ---                 |      ---    |
-|CT-01: Verificar o funximanete dsas pagians | .RF-002: O site deve prermirit ao ususarios dakdhasd  |                   |teste   |djhaksdhkajsdhkashd           |             |
-|neve neve lorem lorem  | .muito frio muito fuiroidf ehdfuead  |teste              |teste   |dskjhdbgkajhsdbkajhsdbkasdda  |dsakjdladad  |
-|lorem lorem lkorem     |   |teste              |teste   |djlwkahsdka                   |dajhedddwjda |
-|frio frio neve eneneneneneneneneveveve     |                 |                   |        |
+|CT-01: Verificar o funcionamento dos links da página Home|RF-001: O site deve permitir ao usuário cadastrar uma conta.|                   |teste   |djhaksdhkajsdhkashd           |             |
+|  | RF-002: O site deve permitir ao usuário fazer o login da sua conta.|teste              |teste   |dskjhdbgkajhsdbkajhsdbkasdda  |dsakjdladad  |
+|     | RF-005: O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.  |teste              |teste   |djlwkahsdka                   |dajhedddwjda |
+|     | RF-007: O site deve permitir ao usuário visualizar os detalhes do livro.                |                   |        |
 
 
 
