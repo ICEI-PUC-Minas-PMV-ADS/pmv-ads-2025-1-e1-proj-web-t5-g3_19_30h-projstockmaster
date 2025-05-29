@@ -6,10 +6,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 
 |  Caso de Teste  | Requisitos Associados | Objetivo do Teste | Passos |Indicar os critérios de êxito | Responsável |
 |      ---        |           ---         |          ---      |   ---  |          ---                 |      ---    |
-|CT-01: Verificar | .RF-002: O site deve  |                   |teste   |djhaksdhkajsdhkashd           |             |
-|o funcionamento  | permitir ao ususario  |teste              |teste   |dskjhdbgkajhsdbkajhsdbkasdda  |dsakjdladad  |
-|dos links da     | fazer o login da sua  |teste              |teste   |djlwkahsdka                   |dajhedddwjda |
-|página Home      |conta.                 |                   |        |
+|CT-01: Verificar | .RF-002: O site deve prermirit ao ususarios dakdhasd  |                   |teste   |djhaksdhkajsdhkashd           |             |
+|o funcionamento  | .muito frio muito fuiroidf ehdfuead  |teste              |teste   |dskjhdbgkajhsdbkajhsdbkasdda  |dsakjdladad  |
+|dos links da     |   |teste              |teste   |djlwkahsdka                   |dajhedddwjda |
+|página Home      |                 |                   |        |
 
 
 
