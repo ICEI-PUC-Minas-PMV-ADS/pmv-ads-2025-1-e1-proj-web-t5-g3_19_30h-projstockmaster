@@ -82,3 +82,5 @@ function preencherFormularioParaEdicao(produto, index) {
 }
 
 document.addEventListener('DOMContentLoaded', renderProdutos);
+
+

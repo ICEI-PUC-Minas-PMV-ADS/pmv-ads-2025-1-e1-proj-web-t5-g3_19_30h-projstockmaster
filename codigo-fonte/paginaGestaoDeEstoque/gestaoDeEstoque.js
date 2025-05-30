@@ -138,3 +138,4 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTableRows(rowsToSortAndDisplay);
     });
 });
+
