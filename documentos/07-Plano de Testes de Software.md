@@ -2,15 +2,12 @@
 
 [Apresente os cenários de testes a serem utilizados na realização dos testes da aplicação. Escolha cenários de testes que demonstrem os requisitos sendo atendidos. ]
 
-Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
+Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
-| Caso de Teste  | Requisitos Associados | Objetivo do Teste | Passos | Critérios de Êxito | Responsável |
-|:---:|----------------------|------------------|--------|-------------------|-------------|
-| **CT-01: Verificar funcionamento dos links da página Home** | RF-001: O site deve permitir ao usuário cadastrar uma conta. | Validar navegação correta | Teste | Links funcionam corretamente | João |
-|  | RF-002: O site deve permitir ao usuário fazer login | Confirmar acesso ao sistema | Teste | Login bem-sucedido | Maria |
-|  | RF-005: O site deve permitir visualizar disciplinas e contato | Validar exibição correta | Teste | Informações são exibidas corretamente | Pedro |
-|  | RF-007: O site deve permitir visualizar detalhes do livro | Conferir exibição de conteúdo | Teste | Informações corretas e legíveis | Ana |
- 
+| Caso de teste                                             | Requisitos associados                                                                                                                                                                                                                                                                                                                                              | Objetivo do teste                                                                                 | Passos                                                                                                                                     | Critérios de êxito                                                                    | Responsável |
+| --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- | ----------- |
+| CT-01: Verificar o funcionamento dos links da página Home | - RF-001: O site deve permitir ao usuário cadastrar uma conta.  <br> - RF-002: O site deve permitir ao usuário fazer o login da sua conta.  <br> - RF-005: O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.  <br> - RF-007: O site deve permitir ao usuário visualizar os detalhes do livro. | Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente. | 1. Acessar o navegador.  <br> 2. Informar o endereço do site.  <br> 3. Visualizar a página Home.  <br> 4. Clicar nos links da página Home. | Todos os links da página Home devem encaminhar os usuários para as páginas descritas. | Maria       |
+
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
