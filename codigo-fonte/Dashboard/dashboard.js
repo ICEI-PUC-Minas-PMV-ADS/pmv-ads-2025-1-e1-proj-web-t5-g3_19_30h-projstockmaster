@@ -57,26 +57,28 @@ function redirectToPedidos() {
 }
 
 function updateDashboardCounters() {
-    const produtos = JSON.parse(localStorage.getItem('produtos') || '[]');
+    const produtos = JSON.parse(localStorage.getItem('produtos') || '[]'); // A CHAVE 'produtos' é crucial aqui!
 
-
+    // Contagem de produtos únicos
     const produtosUnicos = [...new Set(produtos.map(p => p.nome))];
-    const totalProdutos = produtosUnicos.length;
+    const totalProdutos = produtosUnicos.length - 1;
 
+    // Contagem do estoque total (Soma das quantidades)
     const estoqueTotal = produtos.reduce((total, produto) => {
         return total + (parseInt(produto.quantidade) || 0);
     }, 0);
 
+    // Contagem de alertas (quantidade <= 10)
     const alertas = produtos.filter(produto => {
         const quantidade = parseInt(produto.quantidade) || 0;
         return quantidade <= 10;
     }).length;
 
     document.getElementById('produtos-count').textContent = totalProdutos;
-    document.getElementById('estoque-count').textContent = estoqueTotal;
+    document.getElementById('estoque-count').textContent = estoqueTotal; // Atualiza o card de estoque
     document.getElementById('alertas-count').textContent = alertas;
 
-    updatePedidosCount();
+    updatePedidosCount(); // Chama a função para atualizar a contagem de pedidos também
 }
 
 function updatePedidosCount() {
@@ -85,23 +87,19 @@ function updatePedidosCount() {
     document.getElementById('pedidos-count').textContent = numeroPedidos;
 }
 
-
 document.addEventListener('DOMContentLoaded', function () {
     updateDashboardCounters();
-
     setInterval(updateDashboardCounters, 5000);
 });
 
-
 window.addEventListener('storage', function (e) {
-    if (e.key === 'produtos') {
+    if (e.key === 'produtos') { // Agora reage a mudanças na chave 'produtos'
         updateDashboardCounters();
     }
     if (e.key === 'pedidos') {
         updatePedidosCount();
     }
 });
-
 
 document.addEventListener('visibilitychange', function () {
     if (!document.hidden) {
