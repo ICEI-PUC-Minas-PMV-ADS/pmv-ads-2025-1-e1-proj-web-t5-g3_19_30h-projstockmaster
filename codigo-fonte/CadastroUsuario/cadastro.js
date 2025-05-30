@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Elementos do formulário
     const registerForm = document.querySelector('.register-form');
     const nameInput = document.getElementById('name');
@@ -10,16 +10,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const termsCheckbox = document.getElementById('terms');
 
     // Chave secreta para criptografia (DEVE SER A MESMA USADA NO LOGIN!)
-    const SECRET_KEY = "minha-chave-secreta-123"; // ⚠️ Em produção, use uma chave mais complexa!
+    const SECRET_KEY = "minha-chave-secreta-123";
 
     // =============================================
     // MÁSCARAS DE FORMULÁRIO
     // =============================================
-    
+
     // Máscara para CPF/CNPJ
-    documentInput.addEventListener('input', function(e) {
+    documentInput.addEventListener('input', function (e) {
         let value = e.target.value.replace(/\D/g, '');
-        
+
         if (value.length <= 11) {
             // Formata CPF (000.000.000-00)
             value = value.replace(/(\d{3})(\d)/, '$1.$2');
@@ -32,12 +32,12 @@ document.addEventListener('DOMContentLoaded', function() {
             value = value.replace(/\.(\d{3})(\d)/, '.$1/$2');
             value = value.replace(/(\d{4})(\d)/, '$1-$2');
         }
-        
+
         e.target.value = value;
     });
 
     // Máscara para WhatsApp
-    whatsappInput.addEventListener('input', function(e) {
+    whatsappInput.addEventListener('input', function (e) {
         let value = e.target.value.replace(/\D/g, '');
         value = value.replace(/^(\d{2})(\d)/g, '($1) $2');
         value = value.replace(/(\d)(\d{4})$/, '$1-$2');
@@ -63,15 +63,15 @@ document.addEventListener('DOMContentLoaded', function() {
     confirmPasswordInput.addEventListener('input', validatePassword);
 
     // Validação de termos
-    termsCheckbox.addEventListener('change', function() {
+    termsCheckbox.addEventListener('change', function () {
         termsCheckbox.setCustomValidity(termsCheckbox.checked ? '' : 'Aceite os termos para continuar.');
     });
 
     // =============================================
     // SUBMIT DO FORMULÁRIO
     // =============================================
-    
-    registerForm.addEventListener('submit', function(e) {
+
+    registerForm.addEventListener('submit', function (e) {
         e.preventDefault();
 
         // 1. Validações iniciais
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // 5. Armazena no localStorage
         const users = JSON.parse(localStorage.getItem('users')) || {};
-        
+
         if (users[email]) {
             alert('Este e-mail já está cadastrado!');
             return;
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         localStorage.setItem('users', JSON.stringify(users));
-        
+
         // 6. Feedback e redirecionamento
         alert('Cadastro realizado com sucesso! Redirecionando para login...');
         window.location.href = '../HomePage/index.html';
