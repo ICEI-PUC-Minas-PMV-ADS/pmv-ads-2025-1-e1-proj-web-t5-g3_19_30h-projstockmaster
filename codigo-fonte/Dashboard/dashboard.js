@@ -56,6 +56,9 @@ function redirectToPedidos() {
     window.location.href = '../paginaPedidos/Pedidos.html';
 }
 
+function redirectToEstoque() {
+    window.location.href = '../paginaGestaoDeEstoque/gestaoDeEstoque.html';
+}
 function updateDashboardCounters() {
     const produtos = JSON.parse(localStorage.getItem('produtos') || '[]'); // A CHAVE 'produtos' é crucial aqui!
 
