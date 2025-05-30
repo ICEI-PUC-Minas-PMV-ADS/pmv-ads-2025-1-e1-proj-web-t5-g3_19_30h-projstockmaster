@@ -78,7 +78,7 @@ function updateDashboardCounters() {
     }).length;
 
     document.getElementById('produtos-count').textContent = totalProdutos;
-    document.getElementById('estoque-count').textContent = estoqueTotal; // Atualiza o card de estoque
+    //document.getElementById('estoque-count').textContent = estoqueTotal; // Atualiza o card de estoque
     document.getElementById('alertas-count').textContent = alertas;
 
     updatePedidosCount(); // Chama a função para atualizar a contagem de pedidos também

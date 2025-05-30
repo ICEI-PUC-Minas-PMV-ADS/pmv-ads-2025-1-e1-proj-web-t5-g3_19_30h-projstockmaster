@@ -24,6 +24,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+
+    function updateTotalEstoque() {
+        const rows = document.querySelectorAll('.inventory-table tbody tr');
+        let totalEstoque = 0;
+
+        rows.forEach(row => {
+            const quantidade = parseInt(row.cells[4].textContent) || 0;
+            totalEstoque += quantidade;
+        });
+
+        localStorage.setItem('totalEstoque', totalEstoque); // Salva no localStorage
+    }
+
     function parseDate(dateStr) {
         const parts = dateStr.split('/');
         if (parts.length === 3) {
@@ -138,4 +151,4 @@ document.addEventListener('DOMContentLoaded', () => {
         renderTableRows(rowsToSortAndDisplay);
     });
 });
-
+///////////////////////
