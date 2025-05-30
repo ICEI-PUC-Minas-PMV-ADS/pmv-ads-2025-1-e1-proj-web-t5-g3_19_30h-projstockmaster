@@ -210,3 +210,18 @@ body {
     display: none;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
+
+.card.clickable {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card.clickable:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.card.clickable:active {
+    transform: translateY(-2px);
+}

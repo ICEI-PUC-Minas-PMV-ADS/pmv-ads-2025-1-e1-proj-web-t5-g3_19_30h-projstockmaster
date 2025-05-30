@@ -1,4 +1,3 @@
-// Dados iniciais para demonstração
 const dadosIniciais = [
     { nome: "Coca-cola 350ml", categoria: "Refrigerantes", fornecedor: "FEMSA", valorUnitario: "R$ 2,59", quantidade: 200, dataEntrada: "01/04/2025" },
     { nome: "Coca-cola 1L", categoria: "Refrigerantes", fornecedor: "FEMSA", valorUnitario: "R$ 4,70", quantidade: 150, dataEntrada: "28/03/2025" },
@@ -122,4 +121,3 @@ function preencherFormularioParaEdicao(pedido, index) {
     document.getElementById('valor-unitario').value = pedido.valorUnitario;
     editandoIndex = index;
 }
-

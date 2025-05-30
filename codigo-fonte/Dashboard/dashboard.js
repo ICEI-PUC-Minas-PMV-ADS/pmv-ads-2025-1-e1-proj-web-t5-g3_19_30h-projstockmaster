@@ -31,7 +31,7 @@ new Chart(ctx, {
     },
     options: {
         responsive: true,
-        maintainAspectRatio: false, // Para evitar distorção
+        maintainAspectRatio: false,
         scales: {
             y: {
                 beginAtZero: true,
@@ -52,12 +52,16 @@ function redirectToProducts() {
     window.location.href = '../paginaGestaoDeProdutos/gestaoProd.html';
 }
 
-function updateDashboardCounters() {
+function redirectToPedidos() {
+    window.location.href = '../paginaPedidos/Pedidos.html';
+}
 
+function updateDashboardCounters() {
     const produtos = JSON.parse(localStorage.getItem('produtos') || '[]');
 
+
     const produtosUnicos = [...new Set(produtos.map(p => p.nome))];
-    const totalProdutos = produtosUnicos.length - 1;
+    const totalProdutos = produtosUnicos.length;
 
     const estoqueTotal = produtos.reduce((total, produto) => {
         return total + (parseInt(produto.quantidade) || 0);
@@ -71,7 +75,16 @@ function updateDashboardCounters() {
     document.getElementById('produtos-count').textContent = totalProdutos;
     document.getElementById('estoque-count').textContent = estoqueTotal;
     document.getElementById('alertas-count').textContent = alertas;
+
+    updatePedidosCount();
 }
+
+function updatePedidosCount() {
+    const pedidos = JSON.parse(localStorage.getItem('pedidos') || '[]');
+    const numeroPedidos = pedidos.length;
+    document.getElementById('pedidos-count').textContent = numeroPedidos;
+}
+
 
 document.addEventListener('DOMContentLoaded', function () {
     updateDashboardCounters();
@@ -79,11 +92,16 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(updateDashboardCounters, 5000);
 });
 
+
 window.addEventListener('storage', function (e) {
     if (e.key === 'produtos') {
         updateDashboardCounters();
     }
+    if (e.key === 'pedidos') {
+        updatePedidosCount();
+    }
 });
+
 
 document.addEventListener('visibilitychange', function () {
     if (!document.hidden) {
