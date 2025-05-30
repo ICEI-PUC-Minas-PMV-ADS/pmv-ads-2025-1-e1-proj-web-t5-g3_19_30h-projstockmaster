@@ -122,3 +122,4 @@ function preencherFormularioParaEdicao(pedido, index) {
     document.getElementById('valor-unitario').value = pedido.valorUnitario;
     editandoIndex = index;
 }
+

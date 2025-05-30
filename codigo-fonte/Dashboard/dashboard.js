@@ -48,3 +48,45 @@ new Chart(ctx, {
     }
 });
 
+function redirectToProducts() {
+    window.location.href = '../paginaGestaoDeProdutos/gestaoProd.html';
+}
+
+function updateDashboardCounters() {
+
+    const produtos = JSON.parse(localStorage.getItem('produtos') || '[]');
+
+    const produtosUnicos = [...new Set(produtos.map(p => p.nome))];
+    const totalProdutos = produtosUnicos.length - 1;
+
+    const estoqueTotal = produtos.reduce((total, produto) => {
+        return total + (parseInt(produto.quantidade) || 0);
+    }, 0);
+
+    const alertas = produtos.filter(produto => {
+        const quantidade = parseInt(produto.quantidade) || 0;
+        return quantidade <= 10;
+    }).length;
+
+    document.getElementById('produtos-count').textContent = totalProdutos;
+    document.getElementById('estoque-count').textContent = estoqueTotal;
+    document.getElementById('alertas-count').textContent = alertas;
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    updateDashboardCounters();
+
+    setInterval(updateDashboardCounters, 5000);
+});
+
+window.addEventListener('storage', function (e) {
+    if (e.key === 'produtos') {
+        updateDashboardCounters();
+    }
+});
+
+document.addEventListener('visibilitychange', function () {
+    if (!document.hidden) {
+        updateDashboardCounters();
+    }
+});
