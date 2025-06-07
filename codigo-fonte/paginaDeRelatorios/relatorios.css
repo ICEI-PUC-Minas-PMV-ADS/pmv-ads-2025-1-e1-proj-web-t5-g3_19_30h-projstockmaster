@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "AvenirNextProRegular";
+    src: url(../Global/fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: "CalibriLight";
+    src: url(../Global/fonts/calibril.ttf);
+}
+
 /* Estilos específicos para a página de relatórios */
 :root {
     --primary-color: #004B49;
@@ -11,17 +21,38 @@
     --card-bg-right: #c5e0e0;
 }
 
+/* Inclusão fonts */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'CalibriLight';
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    font-size: 20px;
+}
+
+h1 {
+    color: #0a5c5c;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bolder;
+}
+
+h2 {
+    color: #000;
+    font-size: 22px 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bold;
 }
 
 .main-content {
     margin-left: 250px;
     padding: 25px;
     transition: margin 0.3s ease;
+    font-size: 20px;
 }
 
 @media (max-width: 768px) {
@@ -185,4 +216,177 @@ body {
     .hamburger::after {
         bottom: -7px;
     }
+}
+
+/* Estilos para o Modal */
+.modal {
+    display: none;
+    /* Oculto por padrão */
+    position: fixed;
+    /* Fica por cima de tudo */
+    z-index: 1000;
+    /* Z-index alto para garantir que fique na frente */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Largura total */
+    height: 100%;
+    /* Altura total */
+    overflow: auto;
+    /* Habilita scroll se o conteúdo for maior que a tela */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Fundo semi-transparente preto */
+    display: flex;
+    /* Para centralizar o conteúdo vertical e horizontalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    /* Centraliza o modal */
+    padding: 25px 35px;
+    /* Mais padding para melhor visual */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    /* Largura inicial do modal */
+    max-width: 700px;
+    /* Largura máxima para telas maiores */
+    position: relative;
+    /* Para posicionar o botão de fechar */
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+/* Animação para o modal aparecer */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+.modal-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    /* Ajusta o tamanho do título */
+    font-weight: bold;
+}
+
+.modal-body {
+    text-align: center;
+    /* Centraliza a imagem do gráfico */
+}
+
+.sales-chart-image {
+    max-width: 100%;
+    /* Garante que a imagem se ajuste ao modal */
+    height: auto;
+    display: block;
+    /* Remove espaço extra abaixo da imagem */
+    margin: 0 auto;
+    /* Centraliza a imagem se ela for menor que o max-width */
+    border-radius: 5px;
+    /* Bordas arredondadas para a imagem */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-button {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Opcional: Ajustes para responsividade do modal */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        /* Ocupa mais espaço em telas menores */
+        padding: 20px;
+    }
+}
+
+/* ... (seu CSS existente, conforme o que te entreguei na última resposta) ... */
+
+/* Estilos adicionais para o canvas do gráfico dentro do modal */
+.modal-body canvas {
+    max-width: 100%;
+    height: 400px;
+    /* Altura fixa para o gráfico. Ajuste conforme necessário. */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para a legenda personalizada do gráfico */
+.chart-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    /* Espaço entre os itens da legenda */
+    flex-wrap: wrap;
+    /* Permite quebrar linha em telas pequenas */
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    color: var(--text-color);
+}
+
+.legend-item span {
+    display: block;
+    width: 20px;
+    /* Tamanho do quadrado de cor */
+    height: 12px;
+    margin-right: 8px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* Uma borda sutil para os quadrados de cor */
+}
+
+/* Opcional: Ajustes responsivos para o gráfico */
+@media (max-width: 768px) {
+    .modal-body canvas {
+        height: 300px;
+        /* Altura menor para o gráfico em mobile */
+    }
+
+    .chart-legend {
+        flex-direction: column;
+        /* Empilha os itens da legenda em mobile */
+        align-items: flex-start;
+        /* Alinha os itens da legenda à esquerda */
+        gap: 10px;
+        /* Reduz espaço entre itens empilhados */
+    }
+}
+
+#graphicReportModal {
+    display: none;
+    /* Garante que o modal está oculto por padrão */
 }

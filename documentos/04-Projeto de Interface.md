@@ -6,7 +6,7 @@
 O fluxograma a seguir mostra o fluxo de interação do usuário com o sistema a partir da seleção de tópicos no menu. Cada figura ilustra uma seção que estará disponível na aplicação.
 
 
-![Image](https://github.com/user-attachments/assets/2f183518-1018-4c4e-9621-f6c8a0d0bbb9)
+![Image](https://github.com/user-attachments/assets/1d37aafa-607e-47c1-934f-1ab4303edd33)
 <figure> 
     <figcaption>Figura 1 - Fluxo de usuário
 </figure> 
