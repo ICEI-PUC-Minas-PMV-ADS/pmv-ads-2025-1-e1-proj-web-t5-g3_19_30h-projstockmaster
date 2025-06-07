@@ -64,7 +64,7 @@ function updateDashboardCounters() {
 
     // Contagem de produtos únicos
     const produtosUnicos = [...new Set(produtos.map(p => p.nome))];
-    const totalProdutos = produtosUnicos.length - 1;
+    const totalProdutos = produtosUnicos.length;
 
     // Contagem do estoque total (Soma das quantidades)
     const estoqueTotal = produtos.reduce((total, produto) => {
