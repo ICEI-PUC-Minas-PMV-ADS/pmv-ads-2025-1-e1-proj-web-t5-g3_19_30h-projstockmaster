@@ -9,7 +9,7 @@ Os testes funcionais realizados na aplicação web estão descritos a seguir.
 
   Responsável: Lucas Fonseca.
 
-https://github.com/user-attachments/assets/9b687f90-7b82-4317-9875-19f59389ce18)
+https://github.com/user-attachments/assets/9b687f90-7b82-4317-9875-19f59389ce18
 
   </li>
   <hr>
