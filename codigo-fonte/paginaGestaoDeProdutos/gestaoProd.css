@@ -88,12 +88,14 @@ body {
     background-color: #0a7c7c;
     color: white;
     border-color: #0a7c7c;
+    width: 25%
 }
 
 .btn-secondary {
     background-color: white;
     color: #0a7c7c;
     border-color: #0a7c7c;
+    width: 25%
 }
 
 .form-row {
