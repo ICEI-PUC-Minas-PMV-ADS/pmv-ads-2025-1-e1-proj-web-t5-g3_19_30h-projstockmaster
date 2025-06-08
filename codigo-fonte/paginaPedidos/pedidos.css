@@ -83,7 +83,6 @@ body {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    text-align: center;
     font-family: 'AvenirNextProRegular';
     font-weight: bolder;
 }
@@ -140,7 +139,7 @@ body {
 .form-group label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #333;
 }
 
