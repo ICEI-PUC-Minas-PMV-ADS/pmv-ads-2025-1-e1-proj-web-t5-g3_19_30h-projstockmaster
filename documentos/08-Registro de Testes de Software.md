@@ -61,7 +61,7 @@ https://github.com/user-attachments/assets/9b687f90-7b82-4317-9875-19f59389ce18
 
 
   
-  <li> CT-10: Sidebar -   Sobre a aplicação.
+  <li> CT-10: Sidebar -   Sobre a aplicação. O projeto é desenvolvido para gerenciar o estoque de distribuidoras de bebidas. Facilitando assim o controle do Inventário.
   
 
   ![Image](https://github.com/user-attachments/assets/9f1d26b3-a879-428f-9a14-daf7d5e22197)
