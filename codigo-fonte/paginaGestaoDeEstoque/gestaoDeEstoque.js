@@ -47,13 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!isNaN(day) && !isNaN(month) && !isNaN(year)) {
                 return new Date(year, month, day);
             }
-        
         }
         return null;
     }
 
-    const data = parseDate("08/06/2025");
-    console.log(data);
 
     function getCellValueForSort(rowElement, columnIndex) {
         const cell = rowElement.cells[columnIndex];
