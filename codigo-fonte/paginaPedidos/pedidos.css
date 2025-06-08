@@ -13,8 +13,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'CalibriLight';
+    font-size: 20px;
+    align-items: left;
 }
+
 
 body {
     display: flex;
@@ -63,7 +66,7 @@ body {
     flex: 1;
     padding: 20px;
     background-color: #f5f5f5;
-    margin-left: 290px;
+    margin-left: 75px;
 }
 
 .header {
@@ -73,15 +76,13 @@ body {
     margin-bottom: 30px;
 }
 
-/*.header h2 {
-    color: #0b5345;
-    font-size: 28px;
-}*/
 
 .header h2 {
     color: #0a5c5c;
     font-size: 28px;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
     text-align: center;
     font-family: 'AvenirNextProRegular';
     font-weight: bolder;
@@ -99,14 +100,16 @@ body {
     cursor: pointer;
 }
 
-.back-button svg {
+/*.back-button svg {
     margin-right: 5px;
-}
+}*/
 
 .action-buttons {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+    display: block;
+    width: 100%;
 }
 
 .action-button {
@@ -185,6 +188,8 @@ body {
     margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
+    font-family: 'AvenirNextProRegular';
+    font-weight: bolder;
 }
 
 .orders-table {
