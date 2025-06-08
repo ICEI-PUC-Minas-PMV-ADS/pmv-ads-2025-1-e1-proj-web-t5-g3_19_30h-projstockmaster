@@ -70,7 +70,7 @@ body {
 }
 
 .header {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
@@ -81,8 +81,7 @@ body {
     color: #0a5c5c;
     font-size: 28px;
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+    text-align: center;
     font-family: 'AvenirNextProRegular';
     font-weight: bolder;
 }
@@ -92,16 +91,19 @@ body {
     background-color: #0b5345;
     color: white;
     padding: 10px 20px;
+    text-align: center;
     border-radius: 5px;
     text-decoration: none;
     display: flex;
     align-items: center;
     cursor: pointer;
+    width: 22%;
+    display: inline-block;
 }
 
-/*.back-button svg {
+.back-button svg {
     margin-right: 5px;
-}*/
+}
 
 .action-buttons {
     display: flex;
@@ -119,7 +121,9 @@ body {
     background-color: transparent;
     cursor: pointer;
     text-align: center;
-    min-width: 150px;
+    /*min-width: 150px;*/
+    width: 25%;
+    display: inline-block;
 }
 
 .form-container {
