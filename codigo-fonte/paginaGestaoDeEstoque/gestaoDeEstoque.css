@@ -66,10 +66,11 @@ body {
 
 .search-container {
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 10px;
     margin-bottom: 20px;
     flex-wrap: nowrap;
+
 }
 
 .search-container label {
@@ -88,7 +89,7 @@ body {
 }
 
 .search-button {
-    width: 100px;
+    width: 15%;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -101,26 +102,31 @@ body {
 }
 
 .sort-select {
+    width: 20%;
     padding: 10px;
     border-radius: 5px;
     font-size: 20px;
     border: 1px solid #ccc;
     height: 42px;
-    width: 20%;
+    
 }
 
 .back-button {
-    width: 20%;
-    padding: 10px 90px;
+    width: 15%;
+    padding: 10px 100px;
     border-radius: 5px;
-    cursor: pointer;
     font-size: 20px;
+    cursor: pointer;
     background-color: #0a7c7c;
     color: white;
     border: 1px solid #0a7c7c;
     height: 42px;
     white-space: nowrap;
     display: inline-block;
+}
+
+a.back-button {
+    text-align: center;
 }
 
 .form-group {
