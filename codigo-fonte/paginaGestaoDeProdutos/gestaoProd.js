@@ -3,9 +3,7 @@ function getProdutos() {
     return produtos ? JSON.parse(produtos) : [];
 }
 
-function saveProduto(produto) {
-    const produtos = getProdutos();
-    produtos.push(produto);
+function saveProdutos(produtos) {
     localStorage.setItem('produtos', JSON.stringify(produtos));
 }
 
@@ -13,12 +11,10 @@ function renderProdutos() {
     const produtos = getProdutos();
     const tbody = document.querySelector('.inventory-table tbody');
 
-    // Limpar tabela
     tbody.innerHTML = '';
 
-    // Renderizar apenas produtos com campos válidos
-    produtos.forEach(produto => {
-        // Ignorar produtos sem nome ou categoria (ou outro campo obrigatório)
+    produtos.forEach((produto, index) => {
+        // Ignorar produtos com campos obrigatórios vazios
         if (!produto.nome || !produto.categoria || !produto.lote || !produto.validade || !produto.quantidade) {
             return;
         }
@@ -33,10 +29,18 @@ function renderProdutos() {
                 ${produto.quantidade} ${produto.quantidade <= 10 ? '⚠️' : ''}
             </td>
         `;
+
+        // Ao clicar em uma linha, carrega para edição
+        tr.addEventListener('click', () => {
+            preencherFormularioParaEdicao(produto, index);
+        });
+
         tbody.appendChild(tr);
     });
 }
 
+// Variável global para controlar se estamos editando
+let editandoIndex = null;
 
 document.querySelector('.btn-save').addEventListener('click', () => {
     const nome = document.querySelector('input[name="nome"]').value.trim();
@@ -47,7 +51,18 @@ document.querySelector('.btn-save').addEventListener('click', () => {
 
     if (nome && categoria && lote && validade && !isNaN(quantidade)) {
         const produto = { nome, categoria, lote, validade, quantidade };
-        saveProduto(produto);
+        const produtos = getProdutos();
+
+        if (editandoIndex !== null) {
+            // Atualizar produto existente
+            produtos[editandoIndex] = produto;
+            editandoIndex = null; // resetar modo de edição
+        } else {
+            // Adicionar novo produto
+            produtos.push(produto);
+        }
+
+        saveProdutos(produtos);
         renderProdutos();
 
         // Limpar campos
@@ -57,5 +72,13 @@ document.querySelector('.btn-save').addEventListener('click', () => {
     }
 });
 
-// Inicializar tabela ao carregar
+function preencherFormularioParaEdicao(produto, index) {
+    document.querySelector('input[name="nome"]').value = produto.nome;
+    document.querySelector('input[name="categoria"]').value = produto.categoria;
+    document.querySelector('input[name="lote"]').value = produto.lote;
+    document.querySelector('input[name="validade"]').value = produto.validade;
+    document.querySelector('input[name="quantidade"]').value = produto.quantidade;
+    editandoIndex = index;
+}
+
 document.addEventListener('DOMContentLoaded', renderProdutos);

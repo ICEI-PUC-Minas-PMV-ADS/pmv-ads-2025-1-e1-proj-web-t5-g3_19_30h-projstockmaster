@@ -42,15 +42,6 @@ body {
     font-size: 20px;
 }
 
-
-/* .sidebar {
-    width: 270px;
-    background-color: #f5f7f7;
-    padding: 20px;
-    height: 100vh;
-    border-right: 1px solid #e0e0e0;
-} */
-
 .logo {
     margin-bottom: 40px;
     color: #0a5c5c;
@@ -61,23 +52,6 @@ body {
 .logo img {
     max-width: 200px;
 }
-
-/* .sidebar-menu {
-    list-style: none;
-} */
-
-/* .sidebar-menu li {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-} */
-
-/* .sidebar-menu li.active {
-    background-color: #0a7c7c;
-    color: white;
-} */
 
 .main-content {
     flex: 1;
@@ -100,7 +74,7 @@ body {
     display: flex;
     gap: 15px;
     margin-bottom: 20px;
-    }
+}
 
 .btn {
     padding: 10px 20px;
@@ -114,12 +88,33 @@ body {
     background-color: #0a7c7c;
     color: white;
     border-color: #0a7c7c;
+    width: 25%
 }
 
 .btn-secondary {
     background-color: white;
     color: #0a7c7c;
     border-color: #0a7c7c;
+    width: 25%
+}
+
+.back-button {
+    background-color: #0a7c7c;
+    color: white;
+    border: 1px solid #0a7c7c;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 22%;
+    display: inline-block;
+}
+
+.back-button svg {
+    margin-right: 5px;
 }
 
 .form-row {

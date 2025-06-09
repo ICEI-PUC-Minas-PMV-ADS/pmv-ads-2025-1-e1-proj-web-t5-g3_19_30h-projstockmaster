@@ -22,27 +22,27 @@
     <!-- Overlay para Mobile -->
     <div class="sidebar-overlay"></div>
 
-
     <div class="container">
         <h1 id="gap">Dashboard</h1>
 
         <div class="dashboard-wrapper">
             <div class="cards-container">
-                <div class="card">
+                <!-- Card Produtos - Agora clicável e com contador dinâmico -->
+                <div class="card clickable" onclick="redirectToProducts()" title="Clique para gerenciar produtos">
                     <h2 class="names">Produtos</h2>
-                    <div class="number">75</div>
+                    <div class="number" id="produtos-count">0</div>
                 </div>
-                <div class="card">
+                <div class="card clickable" onclick="redirectToPedidos()" title="Clique para gerenciar Pedidos">
                     <h2 class="names">Pedidos</h2>
-                    <div class="number">30</div>
+                    <div class="number" id="pedidos-count">0</div>
                 </div>
-                <div class="card">
+                <div class="card clickable" onclick="redirectToEstoque()" title="Clique para gerenciar o estoque">
                     <h2 class="names">Estoque</h2>
-                    <div class="number">100</div>
+                    <div class="number" id="estoque-count">300</div>
                 </div>
                 <div class="card">
                     <h2 class="names">Alertas</h2>
-                    <div class="number">42</div>
+                    <div class="number" id="alertas-count">0</div>
                 </div>
             </div>
 
@@ -79,17 +79,18 @@
                     <div class="chart-header">Vendas</div>
                     <canvas id="salesChart"></canvas>
                     <div class="chart-legend">
-                        <span class="legend-item"><span class="legend-color" style="background-color: 
-    #ffc107;"></span>5</span>
-                        <span class="legend-item"><span class="legend-color" style="background-color: 
-    #ffaa00;"></span>10</span>
-                        <span class="legend-item"><span class="legend-color" style="background-color: 
-    #ffeb3b;"></span>15</span>
+                        <span class="legend-item"><span class="legend-color"
+                                style="background-color: #ffc107;"></span>5</span>
+                        <span class="legend-item"><span class="legend-color"
+                                style="background-color: #ffaa00;"></span>10</span>
+                        <span class="legend-item"><span class="legend-color"
+                                style="background-color: #ffeb3b;"></span>15</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <script src="../Global/sidebar.js"></script>
     <script src="dashboard.js"></script>
 </body>

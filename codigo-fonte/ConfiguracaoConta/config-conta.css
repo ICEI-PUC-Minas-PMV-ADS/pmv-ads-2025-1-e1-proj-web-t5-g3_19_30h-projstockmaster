@@ -26,15 +26,6 @@ body {
     background-color: #f0f0f0;
 }
 
-/* .sidebar {
-    width: 280px;
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-right: 1px solid #EAEAEA;
-    background-color: #EAEAEA;
-    transition: all 0.3s ease;
-} */
-
 .logo {
     margin-bottom: 30px;
     padding: 10px;
@@ -244,27 +235,6 @@ h2 {
     body {
         flex-direction: column;
     }
-
-    /* .sidebar {
-        width: 100%;
-        max-height: 0;
-        overflow: hidden;
-        padding: 0;
-        border-right: none;
-        border-bottom: 1px solid #EAEAEA;
-        position: fixed;
-        background-color: #EAEAEA;
-        top: 0;
-        left: 0;
-        z-index: 998;
-        transition: max-height 0.5s ease;
-    } */
-
-    /* .sidebar.open {
-        max-height: 100vh;
-        padding: 20px;
-        overflow-y: auto;
-    } */
 
     .mobile-menu-toggle {
         display: block;
