@@ -36,7 +36,8 @@ class SidebarManager {
       { path: '../paginapedidos/pedidos.html', target: 'pedidos', label: 'Pedidos' },
       { path: '../paginaGestaoDeEstoque/gestaoDeEstoque.html', target: 'gestaoDeEstoque', label: 'Gestão de estoque' },
       { path: '../paginaderelatorios/relatorios.html', target: 'relatorios', label: 'Relatórios' },
-      { path: '../ConfiguracaoConta/config-conta.html', target: 'config-conta', label: 'Configurações' }
+      { path: '../ConfiguracaoConta/config-conta.html', target: 'config-conta', label: 'Configurações' },
+      { path: '../paginaSobre/paginaSobre.html', target: 'paginaSobre', label: 'Sobre' }
     ];
 
     return items.map((item, index) => `
@@ -109,4 +110,6 @@ class SidebarManager {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => new SidebarManager());
+document.addEventListener('DOMContentLoaded', () => {
+  new SidebarManager();
+});
