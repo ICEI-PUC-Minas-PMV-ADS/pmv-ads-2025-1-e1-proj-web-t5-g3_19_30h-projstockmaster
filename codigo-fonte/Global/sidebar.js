@@ -25,7 +25,7 @@ class SidebarManager {
           ${this.generateMenuItems()}
         </ul>
       </aside>`;
-    
+
     document.body.insertAdjacentHTML('afterbegin', sidebarHTML);
   }
 
@@ -50,7 +50,7 @@ class SidebarManager {
   setupEvents() {
     this.menuToggle.addEventListener('click', this.toggleSidebar.bind(this));
     this.overlay.addEventListener('click', this.closeSidebar.bind(this));
-    
+
     window.addEventListener('resize', () => {
       this.isMobile = window.matchMedia('(max-width: 768px)').matches;
       if (!this.isMobile) this.closeSidebar();
@@ -80,7 +80,7 @@ class SidebarManager {
   toggleIcons() {
     const menuIcon = this.menuToggle.querySelector('.menu-icon');
     const closeIcon = this.menuToggle.querySelector('.close-icon');
-    
+
     const isActive = this.sidebar.classList.contains('active');
     menuIcon.style.display = isActive ? 'none' : 'inline';
     closeIcon.style.display = isActive ? 'inline' : 'none';
@@ -96,11 +96,11 @@ class SidebarManager {
   setActiveItem() {
     const currentPath = window.location.pathname.toLowerCase();
     const links = document.querySelectorAll('.nav-link');
-    
+
     links.forEach(link => {
       const linkPath = link.getAttribute('href').toLowerCase();
       link.classList.remove('selected');
-      
+
       if (currentPath.includes(link.getAttribute('data-target'))) {
         link.classList.add('selected');
       } else if (currentPath.includes(linkPath.split('/').pop().replace('.html', ''))) {
