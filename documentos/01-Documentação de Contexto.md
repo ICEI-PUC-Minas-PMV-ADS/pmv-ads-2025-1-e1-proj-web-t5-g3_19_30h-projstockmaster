@@ -34,7 +34,7 @@ Objetivos específicos:
 ## Justificativa
 
 - Nossa referência: sistemas de Planejamento de Recursos Empresariais(ERP)
-- Automatizar para descomplicar e tornas acessível.
+- Automatizar para descomplicar e tornar acessível.
 - 39% das pequenas e médias empresas utilizam recursos manuais para controlar despesas e demais processos administrativos (Travel Tech Hub, 2025)
 - 78% das empresas brasileiras já investiram em ferramentas de automação,
 mas apenas 52% delas tem sido bem sucedidas em seu uso(Revista Valor Econômico, 2024)
