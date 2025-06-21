@@ -89,31 +89,33 @@ body {
 }
 
 .search-button {
-    width: 15%;
-    padding: 10px 20px;
+    width: 20%;
+    padding: 5px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
-    background-color: #0a7c7c;
-    color: white;
+    background-color: white;
+    color: #0a7c7c;
     border: 1px solid #0a7c7c;
     height: 42px;
     white-space: nowrap;
 }
 
 .sort-select {
-    width: 20%;
-    padding: 10px;
+    width: 30%;
+    padding: 5px;
     border-radius: 5px;
     font-size: 20px;
-    border: 1px solid #ccc;
+    background-color: white;
+    color: #0a7c7c;
+    border: 1px solid #0a7c7c;
     height: 42px;
     
 }
 
 .back-button {
-    width: 15%;
-    padding: 10px 100px;
+    width: 30%;
+    min-width: 180px;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
@@ -122,12 +124,9 @@ body {
     border: 1px solid #0a7c7c;
     height: 42px;
     white-space: nowrap;
-    display: inline-block;
+
 }
 
-a.back-button {
-    text-align: center;
-}
 
 .form-group {
     flex: 1;
@@ -156,7 +155,7 @@ a.back-button {
     height: 60px;
 }
 
-.btn {
+/*.btn {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -189,7 +188,7 @@ a.back-button {
     color: white;
     border-color: #0a7c7c;
     padding: 5px;
-}
+}*/
 
 .select-selected {
     background-color: #0a7c7c;

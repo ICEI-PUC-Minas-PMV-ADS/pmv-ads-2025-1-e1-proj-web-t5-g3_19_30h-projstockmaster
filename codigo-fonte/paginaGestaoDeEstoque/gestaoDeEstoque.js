@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return null;
     }
 
+
     function getCellValueForSort(rowElement, columnIndex) {
         const cell = rowElement.cells[columnIndex];
         if (!cell) return null;

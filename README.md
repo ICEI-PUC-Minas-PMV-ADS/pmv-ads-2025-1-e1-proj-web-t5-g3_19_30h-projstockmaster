@@ -38,7 +38,7 @@ Stock Master é um sistema de gerenciamento de estoque projetado para otimizar o
 
 # Hospedagem
 
-* A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique [aqui](https://exemplo.com/) para acessá-lo.
+* A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique [aqui](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/HomePage/index.html) para acessá-lo.
 
 # Código-Fonte
 
