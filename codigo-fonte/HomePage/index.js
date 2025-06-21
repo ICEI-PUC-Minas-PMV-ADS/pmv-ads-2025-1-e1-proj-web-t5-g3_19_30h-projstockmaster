@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 loggedIn: true
             }));
 
-            alert(`Bem-vindo, ${user.name}!`);
+            // alert(`Bem-vindo, ${user.name}!`);
             window.location.href = '../PaginaInicial/inicial.html';
         } else {
             alert('Senha incorreta!');
