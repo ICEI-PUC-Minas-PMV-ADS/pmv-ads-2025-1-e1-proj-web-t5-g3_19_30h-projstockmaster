@@ -71,63 +71,87 @@ document.addEventListener('DOMContentLoaded', function () {
     // SUBMIT DO FORMULÁRIO
     // =============================================
 
-    registerForm.addEventListener('submit', function (e) {
-        e.preventDefault();
+registerForm.addEventListener('submit', function (e) {
+    e.preventDefault();
 
-        // 1. Validações iniciais
-        if (!validatePassword()) {
-            alert('As senhas não coincidem!');
-            return;
-        }
+    // 1. Validações iniciais
+    if (!validatePassword()) {
+        alert('As senhas não coincidem!');
+        return;
+    }
 
-        if (!termsCheckbox.checked) {
-            alert('Você deve aceitar os termos e condições!');
-            return;
-        }
+    if (!termsCheckbox.checked) {
+        alert('Você deve aceitar os termos e condições!');
+        return;
+    }
 
-        // 2. Obter valores dos campos (usando docValue em vez de document)
-        const name = nameInput.value.trim();
-        const email = emailInput.value.trim();
-        const password = passwordInput.value;
-        const docValue = documentInput.value; // Variável renomeada para evitar conflito
-        const whatsapp = whatsappInput.value;
+    // 2. Obter valores dos campos 
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+    const password = passwordInput.value;
+    const docValue = documentInput.value.replace(/\D/g, ''); // Remove formatação para comparação
+    const whatsapp = whatsappInput.value.replace(/\D/g, ''); // Remove formatação para comparação
 
-        // 3. Validações adicionais
-        if (!name || !email || !password) {
-            alert('Preencha todos os campos obrigatórios!');
-            return;
-        }
+    // 3. Validações adicionais
+    if (!name || !email || !password) {
+        alert('Preencha todos os campos obrigatórios!');
+        return;
+    }
+    
+    // Validação de e-mail
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+        alert('E-mail inválido!');
+        return;
+    }
 
-        // Validação de e-mail
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            alert('E-mail inválido!');
-            return;
-        }
+    // 4. Criptografa a senha
+    const encryptedPassword = CryptoJS.AES.encrypt(password, SECRET_KEY).toString();
 
-        // 4. Criptografa a senha
-        const encryptedPassword = CryptoJS.AES.encrypt(password, SECRET_KEY).toString();
+    // 5. Armazena no localStorage
+    const users = JSON.parse(localStorage.getItem('users')) || {};
+    const usersArray = Object.values(users);
 
-        // 5. Armazena no localStorage
-        const users = JSON.parse(localStorage.getItem('users')) || {};
+    // Verifica se e-mail já existe
+    if (users[email]) {
+        alert('Este e-mail já está cadastrado!');
+        return;
+    }
 
-        if (users[email]) {
-            alert('Este e-mail já está cadastrado!');
-            return;
-        }
+    // Verifica se CPF/CNPJ já existe
+    const documentExists = usersArray.some(user => 
+        user.document && user.document.replace(/\D/g, '') === docValue
+    );
+    if (documentExists) {
+        alert('Este CPF/CNPJ já está cadastrado!');
+        return;
+    }
 
-        users[email] = {
-            name: name,
-            email: email,
-            password: encryptedPassword,
-            document: docValue, // Usando a variável renomeada
-            whatsapp: whatsapp
-        };
+    // Verifica se WhatsApp já existe (opcional)
+    const whatsappExists = usersArray.some(user => 
+        user.whatsapp && user.whatsapp.replace(/\D/g, '') === whatsapp
+    );
+    if (whatsappExists) {
+        alert('Este número de WhatsApp já está cadastrado!');
+        return;
+    }
 
-        localStorage.setItem('users', JSON.stringify(users));
+    // Se todas as verificações passarem, cadastra o usuário
+    users[email] = {
+        name: name,
+        email: email,
+        password: encryptedPassword,
+        document: documentInput.value, // Mantém a formatação para exibição
+        whatsapp: whatsappInput.value // Mantém a formatação para exibição
+    };
 
-        // 6. Feedback e redirecionamento
-        alert('Cadastro realizado com sucesso! Redirecionando para login...');
-        window.location.href = '../HomePage/index.html';
-    });
+    localStorage.setItem('users', JSON.stringify(users));
+
+    // 6. Feedback e redirecionamento
+    alert('Cadastro realizado com sucesso! Redirecionando para login...');
+    window.location.href = '../HomePage/index.html';
 });
+}
+);
+
+    // teste
