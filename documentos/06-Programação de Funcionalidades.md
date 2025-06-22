@@ -23,4 +23,6 @@ Instruções de acesso
 Abra um navegador de Internet e informe a seguinte URL: [https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2022-1-e1-proj-web-t3-vida-de-estudante/src/paginaHome/index.html](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/HomePage/index.html)
 
 
+---
 
+TEts
