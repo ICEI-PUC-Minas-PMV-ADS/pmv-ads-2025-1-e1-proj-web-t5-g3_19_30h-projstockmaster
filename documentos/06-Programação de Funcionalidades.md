@@ -106,3 +106,60 @@ Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-p
 Ao clicar em “Gestão de Produtos” no canto superior esquerdo da tela, terá acesso a página de Gestão de Produtos.
 
 ---
+
+Tela de Pedidos (RF-006, RF-007)
+Responsável: Jair
+
+O acesso a tela de pedidos poderá ser feito através da opção do menu “Pedidos”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Pedidos:
+
+![5](https://github.com/user-attachments/assets/1d4a3214-faa9-44b4-97e6-3eb265285070)
+
+Requisitos atendidos
+RF-006 O site deve apresentar, para cada livro, uma imagem correspondente à capa
+
+RF-007 O site deve permitir ao usuário visualizar os detalhes do livro
+
+Artefatos da funcionalidade:
+
+● pedidos.html
+
+● pedidos.css
+
+● pedidos.js
+
+Instruções de acesso
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/paginaPedidos/pedidos.html
+Ao clicar em “Pedidos” no canto superior esquerdo da tela, terá acesso a página de Pedidos.
+
+---
+
+Tela de Gestão de estoque (RF-008)
+Responsável: Lucas
+
+O acesso a tela de Gestão de estoque poderá ser feito através do menu, na opção “Gestão de estoque”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Gestão de estoque:
+
+![6](https://github.com/user-attachments/assets/2efedb4a-bb01-4935-9a54-52e6d76106fe)
+
+
+Requisito atendido
+RF-008 O site deve permitir ao usuário visualizar os detalhes dos tutores.
+
+Artefatos da funcionalidade:
+
+● gestaoDeEstoque.html
+
+● gestaoDeEstoque.css
+
+● gestaoDeEstoque.js
+
+Instruções de acesso
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/paginaGestaoDeEstoque/gestaoDeEstoque.html
+
+Clicar na opção “Gestão de estoque” no canto superior esquerdo da tela (na barra de Menu), e terá acesso a página de Tutores.
+
+---
+
