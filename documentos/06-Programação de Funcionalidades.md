@@ -218,5 +218,30 @@ Clicar na opção “Configurações” no canto superior esquerdo da tela (na b
 ---
 
 
+Tela Sobre (RF-008)
+Responsável: Verônica
+
+O acesso a tela Sobre poderá ser feito através do menu, na opção “Sobre”. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Tutores:
+
+![9](https://github.com/user-attachments/assets/c1ae3dae-4aa0-4c87-b07b-281f2ab2bac0)
+
+Requisito atendido
+RF-008 O site deve permitir ao usuário visualizar os detalhes da pagina Sobre.
+
+Artefatos da funcionalidade:
+
+● paginaSobre.html
+
+● paginaSobre.css
+
+
+Instruções de acesso
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/paginaSobre/paginaSobre.html
+
+Clicar na opção “Sobre” no canto superior esquerdo da tela (na barra de Menu), e terá acesso a página Sobre.
+
+
 
 
