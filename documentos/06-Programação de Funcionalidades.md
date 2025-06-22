@@ -12,7 +12,8 @@ Exemplo da tela de login:
 Requisito atendido
 RF-002: O site deve permitir ao usuário fazer o login da sua conta.
 
-Artefatos da funcionalidade
+Artefatos da funcionalidade:
+
 ● index.html
 
 ● index.css
@@ -26,7 +27,7 @@ Abra um navegador de Internet e informe a seguinte URL: [https://icei-puc-minas-
 ---
 
 Tela de Cadastro (RF-001)
-Responsável: Ana
+Responsável: Thiago
 
 O acesso a tela de cadastro poderá ser feito através da opção criar nova conta na pagina de login. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
@@ -38,7 +39,8 @@ Exemplo da tela de cadastro:
 Requisito atendido
 RF-001: O site deve permitir ao usuário cadastrar uma conta.
 
-Artefatos da funcionalidade
+Artefatos da funcionalidade: 
+
 ●cadastro.html
 
 ●cadastro.css
