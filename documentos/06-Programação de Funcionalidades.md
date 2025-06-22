@@ -84,7 +84,8 @@ O acesso a tela de Gestão de Produtos poderá ser feito após o login do usuár
 
 Exemplo da tela de Gestão de Produtos:
 
-![4](https://github.com/user-attachments/assets/3b134ef8-f4a2-435d-a841-17889dc1150a)
+![Captura de tela 2025-06-21 213408](https://github.com/user-attachments/assets/f66d0aac-e594-4b21-9c30-a37e663655fe)
+
 
 Requisitos atendidos
 RF-005 O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.
