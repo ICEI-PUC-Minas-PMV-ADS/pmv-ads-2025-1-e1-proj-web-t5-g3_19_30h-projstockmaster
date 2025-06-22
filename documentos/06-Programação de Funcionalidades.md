@@ -50,6 +50,7 @@ Artefatos da funcionalidade:
 Instruções de acesso
 Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/CadastroUsuario/cadastro.html
 
+
 ---
 DashBoard (RF-004)
 Responsável: Jair
@@ -73,7 +74,7 @@ Artefatos da funcionalidade:
 
 Instruções de acesso
 Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/Dashboard/dashboard.html
-Ao clicar em “Dashboard” no canto superior esquerdo da tela, terá acesso a página de Dashboard.
+Clicar na opção “Dashboard” no canto superior esquerdo da tela (na barra de Menu), e terá acesso a página de Dashboard.
 
 ---
 
@@ -92,8 +93,6 @@ RF-005 O site deve permitir ao usuário disponibilizar informações das discipl
 
 Artefatos da funcionalidade:
 
-● cadastroTutorias.html
-
 ● gestaoProd.css
 
 ● gestaoProd.js
@@ -103,7 +102,7 @@ Artefatos da funcionalidade:
 Instruções de acesso
 Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/paginaGestaoDeProdutos/gestaoProd.html
 
-Ao clicar em “Gestão de Produtos” no canto superior esquerdo da tela, terá acesso a página de Gestão de Produtos.
+Clicar na opção “Gestão de Produtos” no canto superior esquerdo da tela (na barra de Menu), e terá acesso a página de Gestão de Produtos.
 
 ---
 
@@ -131,7 +130,7 @@ Artefatos da funcionalidade:
 
 Instruções de acesso
 Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/paginaPedidos/pedidos.html
-Ao clicar em “Pedidos” no canto superior esquerdo da tela, terá acesso a página de Pedidos.
+Clicar na opção “Pedidos” no canto superior esquerdo da tela (na barra de Menu), e terá acesso a página de Pedidos.
 
 ---
 
@@ -162,4 +161,62 @@ Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-p
 Clicar na opção “Gestão de estoque” no canto superior esquerdo da tela (na barra de Menu), e terá acesso a página de Tutores.
 
 ---
+
+Tela de Relatórios (RF-009)
+Responsável: Jair
+
+O acesso a tela de Relatórios é feito após o login do usuário na página Entrar. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Perfil:
+
+![7](https://github.com/user-attachments/assets/1b62bbbe-87c7-43b5-8ca5-6917a5ff25f8)
+
+Requisito atendido
+RF-008 O site deve permitir ao usuário visualizar os detalhes da pagina de Relatorios.
+
+Artefatos da funcionalidade:
+
+● relatorios.html
+
+● relatorios.css
+
+● relatorios.js
+
+Instruções de acesso
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/paginaDeRelatorios/relatorios.html
+
+Clicar na opção “Relatórios” no canto superior esquerdo da tela (na barra de Menu), e terá acesso a página de Relatórios.
+
+---
+
+Tela de Configurações (RF-009)
+Responsável: Gabriel
+
+O acesso a tela de Configurações é feito após o login do usuário na página Entrar. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Perfil:
+
+![8](https://github.com/user-attachments/assets/7ac724aa-e909-4342-aa1b-0b1bf0304b76)
+
+Requisito atendido
+RF-008 O site deve permitir ao usuário visualizar os detalhes da pagina de Configurações.
+
+Artefatos da funcionalidade:
+
+● config-conta.html
+
+● config-conta.css
+
+● config-conta.js
+
+
+Instruções de acesso
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/ConfiguracaoConta/config-conta.html
+
+Clicar na opção “Configurações” no canto superior esquerdo da tela (na barra de Menu), e terá acesso a página de Configurações.
+
+---
+
+
+
 
