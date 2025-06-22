@@ -2,7 +2,7 @@
 
 ## Conjunto de Slides
 
-
+[APRESENTAÇÃO - STOCK MASTER.pdf](https://github.com/user-attachments/files/20854038/APRESENTACAO.-.STOCK.MASTER.pdf)
 
 ## Vídeo de apresentação
 
