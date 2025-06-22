@@ -77,3 +77,31 @@ Ao clicar em “Dashboard” no canto superior esquerdo da tela, terá acesso a 
 
 ---
 
+Tela de Gestão de Produtos (RF-005)
+Responsável: Jair
+
+O acesso a tela de Gestão de Produtos poderá ser feito após o login do usuário. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Gestão de Produtos:
+
+![4](https://github.com/user-attachments/assets/3b134ef8-f4a2-435d-a841-17889dc1150a)
+
+Requisitos atendidos
+RF-005 O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.
+
+Artefatos da funcionalidade:
+
+● cadastroTutorias.html
+
+● gestaoProd.css
+
+● gestaoProd.js
+
+● gestaoProd.js
+
+Instruções de acesso
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/paginaGestaoDeProdutos/gestaoProd.html
+
+Ao clicar em “Gestão de Produtos” no canto superior esquerdo da tela, terá acesso a página de Gestão de Produtos.
+
+---
