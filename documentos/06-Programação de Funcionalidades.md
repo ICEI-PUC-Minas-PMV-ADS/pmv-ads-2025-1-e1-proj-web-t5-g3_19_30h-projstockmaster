@@ -1,6 +1,6 @@
 # Programação de Funcionalidades
 
-Tela de Login (RF-001)
+Tela de Dashboard (RF-001)
 Responsável: Thiago
 
 O acesso a tela de cadastro poderá ser feito através do link. As estruturas de dados foram baseadas em HTML, CSS e JS.
@@ -47,9 +47,33 @@ Artefatos da funcionalidade:
 
 ●cadastro.js
 
-●cadastro.js
-
 Instruções de acesso
 Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/CadastroUsuario/cadastro.html
 
 ---
+DashBoard (RF-004)
+Responsável: Jair
+
+O acesso a tela de DashBoard poderá ser feito após o login do usuário. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de DashBoard:
+
+![3](https://github.com/user-attachments/assets/cc83ceb0-b856-4a24-ba02-72dd9bde6102)
+
+Requisitos atendidos
+RF-004 O site deve permitir ao usuário fazer o cadastro de livros.
+
+Artefatos da funcionalidade:
+
+● dashboard.html
+
+● dashboard.css
+
+● dashboard.js
+
+Instruções de acesso
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t5-g3_19_30h-projstockmaster/codigo-fonte/Dashboard/dashboard.html
+Ao clicar em “Dashboard” no canto superior esquerdo da tela, terá acesso a página de Dashboard.
+
+---
+
